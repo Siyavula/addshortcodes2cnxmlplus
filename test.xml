@@ -1,0 +1,2984 @@
+<document xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml/0.4" xmlns:style="http://siyavula.com/cnxml/style/0.1">
+<its:rules xmlns:its="http://www.w3.org/2005/11/its" version="1.0">
+    <its:translateRule translate="no" selector="//link"/>
+    <its:translateRule translate="no" selector="//url"/>
+    <its:translateRule translate="no" selector="//latex"/>
+    <its:translateRule translate="no" selector="//number"/>
+    <its:translateRule translate="no" selector="//unit"/>
+    <its:translateRule translate="no" selector="//unit_number"/>
+    <its:translateRule translate="no" selector="//percentage"/>
+    <its:translateRule translate="no" selector="//symbol"/>
+    <its:translateRule translate="no" selector="//currency"/>
+    <its:translateRule translate="no" selector="//chem_compound"/>
+    <its:translateRule translate="no" selector="//spec_note"/>
+    <its:translateRule translate="no" selector="//nuclear_notation"/>
+    <its:translateRule translate="no" selector="//mass_number"/>
+    <its:translateRule translate="no" selector="//atomic_number"/>
+    <its:translateRule translate="no" selector="//code"/>
+    <its:translateRule translate="no" selector="//m:math"/>
+    <its:translateRule translate="no" selector="//shortcode"/>
+    <its:translateRule translate="no" selector="//metadata"/>
+    <its:translateRule translate="no" selector="//image"/>
+    <its:translateRule translate="no" selector="//video"/>
+    <its:translateRule translate="no" selector="//figure/type"/>
+    <its:translateRule translate="no" selector="//simulation"/>
+</its:rules>
+  <metadata>
+    <cnxml-version>0.1</cnxml-version>
+    <pspicture-generator-version>1.1</pspicture-generator-version>
+  </metadata>
+  <content>
+    <section type="chapter">
+      <title>Exponents and surds</title>
+      <section type="section">
+        <shortcode>EM39R</shortcode>
+<title>Revision</title>
+	<section type="subsection">
+	  <shortcode>EM39S</shortcode>
+<title>The number system</title>
+          <para>The diagram below shows the structure of the number system:</para>
+	  <pspicture style:width="0.6">
+	    <code>
+(0,-6.0173435)(17.4,5.4)
+\psellipse[linewidth=0.04,dimen=outer](8.66,-0.35)(8.66,5.6673436)
+\psline[linewidth=0.04cm](8.72,2.6973438)(8.72,-4.6426563)
+\psellipse[linewidth=0.04,dimen=outer](4.44,-1.3773438)(3.8,2.5)
+\psellipse[linewidth=0.04,dimen=outer](3.67,-1.8673438)(2.57,1.61)
+\rput(6.7949996,4.337656){\Large Real $\mathbb{R}$}
+\rput(10.8,-0.49734375){\Large Irrational $\mathbb{Q'}$}
+\rput(5.177969,1.9626563){\Large Rational $\mathbb{Q}$}
+\rput(4.127969,0.26265624){\Large Integer $\mathbb{Z}$}
+\rput(3.2779686,-2.3373437){\Large Natural $\mathbb{N}$}
+\psellipse[linewidth=0.04,dimen=outer](3.24,-2.3673437)(1.68,0.83)
+\rput(3.6484377,-1.0373437){\Large Whole $\mathbb{N}_0$}
+\psellipse[linewidth=0.04,dimen=outer](6.44,-0.99)(6.08,3.9873438)
+%%\rput(9.04,5.797656){\Large The number system}
+\rput(14.825,2.1176562){\Large Non-real $\mathbb{R'}$}
+\psline[linewidth=0.04cm](13.18,4.4373436)(13.2,-5.1626563)
+	    </code>
+	  </pspicture>
+<!--video 1 describing number system-->
+          <video>
+            <title>The number system</title>
+            <shortcode>todo</shortcode>
+	    <url>http://www.khanacademy.org/embed_video?v=aqsIWLqlDhE</url>
+	    <width>300</width>
+    	    <height>245</height>
+	    <url>http://www.khanacademy.org/math/algebra/complex-numbers/v/number-sets-1?playlist=Algebra%20I%20Worked%20Examples</url>
+          </video>
+          <para>We use the following definitions:</para>
+          <list list-type="bulleted">
+            <item>
+              <para><latex>ℕ</latex>: natural numbers are <latex>\{1; \; 2; \; 3; \; \ldots\}</latex></para>
+            </item>
+            <item>
+              <para><latex>ℕ_0</latex>: whole numbers are <latex>\{0; \; 1; \; 2; \; 3; \; \ldots\}</latex></para>
+            </item>
+            <item>
+              <para><latex>ℤ</latex>: integers are <latex>\{\ldots; \; -3; \; -2; \; -1; \; 0; \; 1; \; 2; \; 3; \; \ldots\}</latex></para>
+            </item>
+            <item>
+              <para><latex>ℚ</latex>: rational numbers are numbers which can be written as <latex>\frac{a}{b}</latex> where <latex>a </latex> and <latex>b </latex> are integers and <latex>b\ne 0</latex>, or as a terminating or recurring decimal number.</para>
+  	      <para>Examples: <latex>-\frac{7}{2}; \; <number>-2.25</number>; \; 0; \; \sqrt{9}; \; <number>0.</number>\dot{8}; \; \frac{23}{1}</latex></para>
+            </item>
+            <item>
+              <para><latex>ℚ'</latex>: irrational numbers are numbers that cannot be written as a fraction with the numerator and denominator as integers. Irrational numbers also include decimal numbers that neither terminate nor recur.</para>
+  	      <para>Examples: <latex>\sqrt{3}; \; \sqrt[5]{2}; \; \pi; \; \frac{1 + \sqrt{5}}{2}; \; <number>1.27548</number>\ldots</latex></para>
+            </item>
+            <item>
+              <para><latex>ℝ</latex>: real numbers include all rational and irrational numbers.</para>
+            </item>
+            <item>
+              <para><latex>ℝ'</latex>: non-real numbers or imaginary numbers are numbers that are not real.</para>
+  	      <para>Examples: <latex>\sqrt{-25}; \; \sqrt[4]{-1}; \; -\sqrt{-\frac{1}{16}}</latex></para>
+            </item>
+          </list>
+<!--video 2 determine which sets number belongs to-->
+          <video>
+            <title>Number sets</title>
+            <shortcode>todo</shortcode>
+	    <url>http://www.khanacademy.org/embed_video?v=psyWUUkI-aw</url>
+	    <width>300</width>
+    	    <height>245</height>
+	    <url>http://www.khanacademy.org/math/algebra/complex-numbers/v/number-sets-3</url>
+          </video>
+	  <exercises>
+	    <title>The number system</title>
+<problem-set style:columns="2">
+  <header>
+ 		<para>Use the list of words below to describe each of the following numbers (in some cases multiple words will be applicable):</para>
+		<list list-type="bulleted">
+                  <item>Natural (<latex>ℕ</latex>)</item>
+                  <item>Whole (<latex>ℕ_0</latex>)</item>
+                  <item>Integer (<latex>ℤ</latex>)</item>
+                  <item>Rational (<latex>ℚ</latex>) </item>
+                  <item>Irrational (<latex>ℚ'</latex>) </item>
+                  <item>Real (<latex>ℝ</latex>)</item>
+                  <item>Non-real (<latex>ℝ'</latex>)</item>
+		</list>
+  </header>
+  <entry>
+    <problem>
+      <para><latex>\sqrt{7}</latex></para>
+    </problem>
+    <solution><correct><latex>ℝ; ℚ' </latex> </correct>
+		</solution>
+</entry>
+  <entry>
+    <problem>
+<para><number>0.01</number></para>
+    </problem>
+    <solution><correct><latex>ℝ; ℚ </latex> </correct>
+		</solution>
+</entry>
+  <entry>
+    <problem>
+<para><latex>16\frac{2}{5}</latex></para>
+    </problem>
+    <solution><correct><latex>ℝ; ℚ </latex> </correct>
+		</solution>
+</entry>
+  <entry>
+    <problem>
+<para><latex>\sqrt{6\frac{1}{4}}</latex></para>
+    </problem>
+    <solution><correct><latex>ℝ; ℚ</latex> </correct>
+		</solution>
+</entry>
+  <entry>
+    <problem>
+<para><number>0</number></para>
+    </problem>
+    <solution><correct><latex>ℝ; ℚ; ℤ;  ℕ_0</latex> </correct>
+		</solution>
+</entry>
+  <entry>
+    <problem>
+<para><latex>2\pi</latex></para>
+    </problem>
+    <solution><correct><latex>ℝ' ℚ'</latex> </correct>
+		</solution>
+</entry>
+  <entry>
+    <problem>
+<para><latex><number>-5.3</number>\dot{8}</latex></para>
+    </problem>
+    <solution><correct><latex>ℝ; ℚ</latex> </correct>
+		</solution>
+</entry>
+  <entry>
+    <problem>
+<para><latex>\frac{1-\sqrt{2}}{2}</latex></para>
+    </problem>
+    <solution><correct><latex>ℝ; ℚ'</latex> </correct>
+		</solution>
+</entry>
+  <entry>
+    <problem>
+<para><latex>-\sqrt{-3}</latex></para>
+    </problem>
+     <solution><correct><latex>ℝ'</latex> </correct>
+		</solution>
+</entry>
+  <entry>
+    <problem>
+<para><latex>(\pi)^2</latex></para>
+    </problem>
+    <solution><correct><latex>ℝ; ℚ'</latex> </correct>
+		</solution>
+</entry>
+  <entry>
+    <problem>
+<para><latex>-\frac{9}{11}</latex></para>
+    </problem>
+    <solution><correct><latex>ℝ; ℚ</latex> </correct>
+		</solution>
+</entry>
+  <entry>
+    <problem>
+<para><latex>\sqrt[3]{-8}</latex></para>
+    </problem>
+     <solution><correct><latex>ℝ; ℚ; ℤ</latex> </correct>
+		</solution>
+</entry>
+  <entry>
+    <problem>
+<para><latex>\frac{22}{7}</latex></para>
+    </problem>
+    <solution><correct><latex>ℝ; ℚ </latex> </correct>
+		</solution>
+</entry>
+  <entry>
+    <problem>
+<para><latex><number>2.45897</number>\ldots</latex></para>
+    </problem>
+    <solution><correct><latex>ℝ; ℚ'</latex> </correct>
+		</solution>
+</entry>
+  <entry>
+    <problem>
+<para><latex><number>0.</number>\overline{65}</latex></para>
+    </problem>
+    <solution><correct><latex>ℝ; ℚ</latex> </correct>
+		</solution>
+</entry>
+  <entry>
+    <problem>
+<para><latex>\sqrt[5]{-32}</latex></para>
+    </problem>
+     <solution><correct><latex>ℝ; ℚ; ℤ</latex> </correct>
+		</solution>
+</entry>
+</problem-set>
+
+	  </exercises>
+	</section>
+	<section type="subsection">
+	  <shortcode>EM39T</shortcode>
+<title>Laws of exponents</title>
+          <para>
+We use exponential notation to show that a number or variable is multiplied by itself a certain number of times.
+The exponent, also called the index or power, indicates the number of times the multiplication is repeated.
+	  </para>
+<pspicture style:width="0.45">
+            <code>
+(0,-0.27015626)(5.1884375,0.27015626)
+\rput(0.3,-0.11328125){\small base}
+\rput(1.5,-0.07828125){\Large $a^n$}
+\rput(3.65,0.06671875){\small exponent/index}
+\psline[linewidth=0.01cm,arrowsize=0.05291667cm 2.0,arrowlength=1.4,arrowinset=0.4]{-&gt;}(1.2,-0.15)(0.7871875,-0.15)
+\psline[linewidth=0.01cm,arrowsize=0.05291667cm 2.0,arrowlength=1.4,arrowinset=0.4]{-&gt;}(1.85,0.03671875)(2.3471875,0.03671875)
+            </code>
+	  </pspicture>
+          <math_identity>
+	    <latex display="block">
+	      a^n = a \times a \times a \times \ldots \times a \quad (n \text{ times}) \qquad \left(a \in ℝ, n \in ℕ\right)
+	    </latex>
+	  </math_identity>
+          <para>Examples:</para>
+          <list list-type="enumerated">
+            <item><latex>2 \times 2 \times 2 \times 2 = 2^4</latex></item>
+            <item><latex><number>0.71</number> \times <number>0.71</number> \times <number>0.71</number> = (<number>0.71</number>)^3 </latex></item>
+            <item><latex>(<number>501</number>)^2 = <number>501</number> \times <number>501</number> </latex></item>
+            <item><latex>k^6 = k \times k \times k \times k \times k \times k</latex></item>
+          </list>
+          <para>For <latex>x^2</latex>, we say <latex>x</latex> is squared and for <latex>y^3</latex>, we say that <latex>y</latex> is cubed. In the last example we have <latex>k^6</latex>; we say that <latex>k</latex> is raised to the sixth power.</para>
+	  <para>We also have the following definitions for exponents. It is important to remember that we always write the final answer with a positive exponent.</para>
+	  <math_identity>
+            <list list-type="bulleted">
+              <item>
+		<para><latex>{a}^{0}=1\phantom{\rule{28.45274pt}{0ex}}</latex> (<latex>a \ne 0</latex> because <latex>0^0</latex> is undefined)</para>
+              </item>
+              <item>
+		<para><latex>{a}^{-n}=\frac{1}{{a}^{n}}\phantom{\rule{14.22636pt}{0ex}}</latex> (<latex>a \ne 0</latex> because <latex>\frac{1}{0}</latex> is undefined)</para>
+              </item>
+            </list>
+	  </math_identity>
+          <para>Examples:</para>
+	  <list list-type="enumerated">
+            <item><latex>5^{-2} = \dfrac{1}{5^2} = \dfrac{1}{25}  </latex></item>
+            <item><latex>(-36)^0 x = (1)x = x </latex></item>
+            <item><latex>\dfrac{7p^{-1}}{q^{3}t^{-2}} = \dfrac{7t^2}{pq^3} </latex></item>
+          </list>
+	  <math_identity>
+	    <para>We use the following laws for working with exponents:
+              <list list-type="bulleted">
+		<item><latex>{a}^{m} \times {a}^{n}={a}^{m+n}</latex></item>
+		<item><latex>\frac{{a}^{m}}{{a}^{n}}={a}^{m-n}</latex></item>
+		<item><latex>{\left(ab\right)}^{n}={a}^{n}{b}^{n}</latex></item>
+		<item><latex>{\left(\frac{a}{b}\right)}^{n}=\frac{{a}^{n}}{{b}^{n}}</latex></item>
+		<item><latex>{\left({a}^{m}\right)}^{n}={a}^{mn}</latex></item>
+              </list>
+              where <latex> a &gt; 0</latex>, <latex>b &gt; 0</latex> and <latex>m, n \in ℤ</latex>.</para>
+          </math_identity>
+<!--video 3 explaining why the laws of exponents are true  -->
+          <video>
+            <title>Laws of exponents</title>
+            <shortcode>todo</shortcode>
+	    <url>http://www.khanacademy.org/embed_video?v=tOuCdKqO6-s</url>
+	    <width>300</width>
+    	    <height>245</height>
+	    <url>http://www.khanacademy.org/math/algebra/exponents-radicals/v/zero--negative--and-fractional-exponents</url>
+          </video>
+	  <worked_example>
+            <title>Laws of exponents</title>
+            <question>
+              <para>Simplify the following:</para>
+	      <list list-type="enumerated">
+		<item><latex>5(m^{2t})^p \times 2(m^{3p})^t</latex></item>
+		<item><latex>\dfrac{8k^3x^2}{(xk)^2} </latex></item>
+		<item><latex>\dfrac{2^2 \times 3 \times 7^4}{(7 \times 2)^4}</latex></item>
+		<item><latex>3(3^b)^a</latex></item>
+              </list>
+            </question>
+            <answer>
+              <list list-type="enumerated">
+		<item><latex>5(m^{2t})^p \times 2(m^{3p})^t = 10m^{2pt + 3pt} = 10m^{5pt}</latex></item>
+		<item><latex>\dfrac{8k^3x^2}{(xk)^2} =  \dfrac{8k^3x^2}{x^2k^2} = 8k^{(3-2)}x^{(2-2)} = 8k^1x^0 = 8k</latex></item>
+		<item><latex>\dfrac{2^2 \times 3 \times 7^4}{(7 \times 2)^4} = \dfrac{2^2 \times 3 \times 7^4}{7^4 \times 2^4} = 2^{(2-4)} \times 3 \times 7^{(4-4)} = 2^{-2} \times 3 = \frac{3}{4} </latex></item>
+		<item><latex>3(3^b)^a = 3 \times 3^{ab} = 3^{ab + 1}</latex></item>
+              </list>
+            </answer>
+          </worked_example>
+	  <worked_example>
+            <title>Laws of exponents</title>
+            <question>
+<!--template-id 352-->
+   	      <para>Simplify:<latex>  \dfrac{3^m - 3^{m+1}}{4 \times 3^m - 3^m}</latex></para>
+            </question>
+            <answer>
+              <workstep>
+                <title>Simplify to a form that can be factorised</title>
+								<latex display="block">
+					\dfrac{3^m - 3^{m+1}}{4 \times 3^m - 3^m} = \dfrac{3^m - (3^{m} \times 3)}{4 \times 3^m - 3^m}
+							</latex>
+              </workstep>
+              <workstep>
+                <title>Take out a common factor</title>
+									<latex display="block">
+										\begin{aligned}
+										&amp;= \dfrac{3^m(1 - 3)}{3^m(4 - 1)} 
+										\end{aligned}
+									</latex>
+              </workstep>
+              <workstep>
+                <title>Cancel the common factor and simplify</title>
+									<latex display="block">
+										\begin{aligned}
+										&amp;= \frac{1 - 3}{4 - 1}  \\
+										&amp;= - \frac{2}{3}
+										\end{aligned}
+									</latex>
+              </workstep>
+            </answer>
+          </worked_example>
+
+<!--video 4 applying the exponent laws basics-->
+          <video>
+            <title>Using the laws of exponents</title>
+            <shortcode>todo</shortcode>
+	    <url>http://www.khanacademy.org/embed_video?v=1Nt-t9YJM8k</url>
+	    <width>300</width>
+    	    <height>245</height>
+	    <url>http://www.khanacademy.org/math/arithmetic/basic-exponents/v/level-2-exponents</url>
+          </video>
+
+	  <exercises>
+	    <title>Laws of exponents</title>
+
+<problem-set style:columns="2">
+  <header>
+ 		<para>Simplify the following:</para>
+  </header>
+  <entry>
+    <shortcode>todo</shortcode>
+    <problem>
+<para><latex>4 \times 4^{2a} \times 4^2 \times 4^a</latex></para>
+    </problem>
+    <solution> 	    
+<latex display="block">
+\begin{align}
+  4 \times 4^{2a} \times 4^2 \times 4^a
+  &amp;= 4^{1+2a+2+a} \\
+  &amp;= <correct>4^{3a+3}</correct>
+\end{align}
+		    </latex> 
+		</solution>
+</entry>
+  <entry>
+    <shortcode>todo</shortcode>
+    <problem>
+<para><latex>\dfrac{3^2}{2^{-3}} </latex></para>
+    </problem>
+    <solution> 
+<latex display="block">
+\begin{align}
+  \dfrac{3^2}{2^{-3}}
+  &amp;= 3^2 \times 2^3 \\
+  &amp;= 9 \times 8 \\
+  &amp;= <correct>72</correct>
+\end{align}
+		    </latex> 
+		</solution>
+</entry>
+  <entry>
+    <shortcode>todo</shortcode>
+    <problem>
+<para><latex>(3p^5)^2 </latex></para>
+    </problem>
+    <solution> 
+<latex display="block">
+\begin{align}
+  (3p^5)^2 
+  &amp;= 3^2 \times p^{10} \\
+  &amp;= <correct>9 p^{10}</correct> 
+\end{align}
+		    </latex> 
+		</solution>
+</entry>
+  <entry>
+    <shortcode>todo</shortcode>
+    <problem>
+<para><latex>\dfrac{k^2k^{3x-4}}{k^x}</latex></para>
+    </problem>
+    <solution> 
+<latex display="block">
+\begin{align}
+  \dfrac{k^2k^{3x-4}}{k^x}
+  &amp;= \dfrac{k^{3x-2}}{k^x} \\
+  &amp;= k^{3x-2-(x)} \\
+  &amp;= <correct>k^{2x-2}</correct> 
+\end{align}
+		    </latex> 
+		</solution>
+</entry>
+  <entry>
+    <shortcode>todo</shortcode>
+    <problem>
+<para><latex>(5^{z-1})^2+5^z</latex></para>
+    </problem>
+    <solution> 
+<latex display="block">
+   (5^{z-1})^2+5^z = <correct> 5^{2z-2}+5^z </correct> 
+		    </latex> 
+		</solution>
+</entry>
+  <entry>
+    <shortcode>todo</shortcode>
+    <problem>
+<para><latex>(\frac{1}{4})^0</latex></para>
+    </problem>
+    <solution>
+<latex display="block"> 
+\left ( \frac{1}{4} \right )^0 = <correct> 1</correct>
+ </latex>
+		</solution>
+</entry>
+  <entry>
+    <shortcode>todo</shortcode>
+    <problem>
+<para><latex>(x^2)^5</latex></para>
+    </problem>
+    <solution>
+<latex display="block"> 
+ \left ( x^2 \right )^5  = <correct> x^{10}</correct>
+ </latex>
+		</solution>
+</entry>
+  <entry>
+    <shortcode>todo</shortcode>
+    <problem>
+<para><latex>\left( \frac{a}{b} \right)^{-2}</latex></para>
+    </problem>
+    <solution>
+<latex display="block"> 
+\begin{aligned}
+\left ( \frac{a}{b} \right )^{-2} 
+&amp;= \frac{a^{-2}}{b^{-2}} \\
+&amp;= <correct>\frac{b^2}{a^2}</correct>
+\end{aligned}</latex>
+		</solution>
+</entry>
+  <entry>
+    <shortcode>todo</shortcode>
+    <problem>
+<para><latex>(m+n)^{-1}</latex></para>
+    </problem>
+    <solution> 
+<latex display="block"> 
+\left ( m+n \right )^{-1} = <correct>\frac{1}{m+n}</correct>
+</latex>
+		</solution>
+</entry>
+  <entry>
+    <shortcode>todo</shortcode>
+    <problem>
+<para><latex>2(p^t)^s</latex></para>
+    </problem>
+    <solution>
+<latex display="block"> 
+2\left ( p^t \right )^s = <correct>2p^{ts}</correct>
+ </latex>
+		</solution>
+</entry>
+  <entry>
+    <shortcode>todo</shortcode>
+    <problem>
+<para><latex>\dfrac{1}{\left(\frac{1}{a}\right)^{-1}}</latex></para>
+    </problem>
+    <solution>
+<latex display="block"> 
+\dfrac{1}{\left ( \frac{1}{a} \right )^{-1}} = <correct>\dfrac{1}{a} </correct>
+</latex>
+		</solution>
+</entry>
+  <entry>
+    <shortcode>todo</shortcode>
+    <problem>
+<para><latex>\frac{k^{0}}{k^{-1}}</latex></para>
+    </problem>
+    <solution> 
+<latex display="block"> 
+ \frac{k^{0}}{k^{-1}} = <correct>k </correct>
+ </latex>
+		</solution>
+</entry>
+  <entry>
+    <shortcode>todo</shortcode>
+    <problem>
+<para><latex>\dfrac{-2}{-2^{-a}}</latex></para>
+    </problem>
+    <solution> 
+<latex display="block"> 
+\begin{aligned}
+\dfrac{-2}{-2^{-a}}
+&amp;= 2 \times 2^a \\
+&amp;= <correct>2^{a+1}</correct>
+\end{aligned}
+</latex>
+		</solution>
+</entry>
+  <entry>
+    <shortcode>todo</shortcode>
+    <problem>
+<para><latex>\dfrac{-h}{(-h)^{-3}}</latex></para>
+    </problem>
+    <solution>
+<latex display="block"> 
+\begin{aligned}
+\frac{-h}{\left ( -h \right )^{-3}}
+&amp;= -h\left ( -h \right )^3 \\
+&amp;= -h\left ( -h^3  \right ) \\
+&amp;= <correct>h^4</correct>
+\end{aligned}</latex>
+		</solution>
+</entry>
+  <entry>
+    <shortcode>todo</shortcode>
+    <problem>
+<para><latex>\left( \dfrac{a^2b^3}{c^3d} \right)^2</latex></para>
+    </problem>
+    <solution>
+<latex display="block"> 
+\left ( \frac{a^2b^3}{c^3d} \right )^2 = <correct>\frac{a^4b^6}{c^6d^2}</correct>
+</latex>
+		</solution>
+</entry>
+  <entry>
+    <shortcode>todo</shortcode>
+    <problem>
+<para><latex>10^{7}(7^{0}) \times 10^{-6}(-6)^{0}-6</latex></para>
+    </problem>
+    <solution>
+<latex display="block"> 
+\begin{aligned}
+10^{7}\left ( 7^{0} \right ) \times 10^{-6}\left ( -6 \right )^{0}-6
+&amp;= 10^7(1) \times 10^{-6}(1) - 6 \\
+&amp;= 10^1 - 6 \\
+&amp;= <correct>4</correct>
+\end{aligned}
+</latex>
+		</solution>
+</entry>
+  <entry>
+    <shortcode>todo</shortcode>
+    <problem>
+<para><latex>m^3n^2 \div nm^2 \times \frac{mn}{2}</latex></para>
+    </problem>
+    <solution>
+<latex display="block"> 
+\begin{aligned}
+m^3n^2 \div nm^2 \times \frac{mn}{2}
+&amp;= m^3n^2 \times \frac{1}{m^2n} \times \frac{mn}{2} \\
+&amp;= \frac{m^3n^2}{m^2n} \times \frac{mn}{2} \\
+&amp;= <correct>\frac{m^2n^2}{2}</correct>
+\end{aligned}
+</latex>
+		</solution>
+</entry>
+  <entry>
+    <shortcode>todo</shortcode>
+    <problem>
+<para><latex>(2^{-2}-5^{-1})^{-2}</latex></para>
+    </problem>
+    <solution>
+<latex display="block"> 
+\begin{aligned}
+\left ( 2^{-2}-5^{-1} \right )^{-2}
+&amp;= \left ( \frac{1}{4} - \frac{1}{5} \right )^{-2} \\
+&amp;= \left ( \frac{1}{20} \right )^{-2} \\
+&amp;= 20^2  \\
+&amp;= <correct><number>400</number></correct>
+\end{aligned}
+</latex>
+		</solution>
+</entry>
+  <entry>
+    <shortcode>todo</shortcode>
+    <problem>
+ <para><latex>(y^2)^{-3} \div \left( \frac{x^2}{y^3} \right)^{-1}</latex></para>
+    </problem>
+    <solution>
+<latex display="block"> 
+\begin{aligned}
+\left ( y^2 \right )^{-3} \div \left ( \frac{x^2}{y^3} \right )^{-1}\div \frac{y^{-2}}{x^{-2}}
+&amp;=  \frac{1}{y^6} \times   \frac{x^2}{y^3}  \times  \frac{y^{2}}{x^{2}} \\
+&amp;= <correct>\frac{1}{y^7}</correct>
+\end{aligned}
+</latex>
+		</solution>
+</entry>
+  <entry>
+    <shortcode>todo</shortcode>
+    <problem>
+  		<!-- template-id="351"-->
+                  <para><latex>\dfrac{2^{c-5}}{2^{c-8}}  </latex></para>
+    </problem>
+    <solution>
+<latex display="block"> 
+\begin{aligned}
+\dfrac{2^{c-5}}{2^{c-8}} 
+&amp;=  2^{(c-5)-(c-8)} \\
+&amp;=  2^{c-5-c+8} \\
+&amp;=  2^{3} \\
+&amp;= <correct>8</correct>
+\end{aligned}
+</latex>
+		</solution>
+</entry>
+  <entry>
+    <shortcode>todo</shortcode>
+    <problem>
+  		<!-- template-id="348"-->
+                  <para><latex>\dfrac{2^{9a} \times 4^{6a} \times 2^2}{8^{5a}}  </latex></para>
+    </problem>
+    <solution>
+<latex display="block"> 
+\begin{aligned}
+\dfrac{2^{9a} \times 4^{6a} \times 2^2}{8^{5a}}  
+&amp;=  \frac{2^{9a} \times 2^{12a} \times 2^2}{2^{15a}}  \\
+&amp;=  \frac{2^{9a+12a+2}}{2^{15a}} \\
+&amp;=   2^{21a+2-15a} \\
+&amp;=  <correct>2^{6a+2}</correct>
+\end{aligned}
+</latex>
+		</solution>
+</entry>
+  <entry>
+    <shortcode>todo</shortcode>
+    <problem>
+  		<!-- template-id="356"-->
+                  <para><latex>\dfrac{20t^5p^{10}}{10t^4p^9}  </latex></para>
+    </problem>
+    <solution>
+<latex display="block"> 
+\begin{aligned}
+\dfrac{20t^5p^{10}}{10t^4p^9}  
+&amp;=   2t^{5-4}p^{10-9} \\
+&amp;=  <correct>2pt</correct>
+\end{aligned}
+</latex>
+		</solution>
+</entry>
+  <entry>
+    <shortcode>todo</shortcode>
+    <problem>
+                  <para><latex>\left( \dfrac{9q^{-2s}}{q^{-3s}y^{-4a-1}} \right)^2 </latex></para>
+    </problem>
+    <solution>
+<latex display="block"> 
+\begin{aligned}
+\left( \dfrac{9q^{-2s}}{q^{-3s}y^{-4a-1}} \right)^2 
+&amp;=    \frac{\left( 9q^{-2s} \right)^2}{\left( q^{-3s}y^{-4a-1} \right)^2}  \\
+&amp;=    \frac{  81q^{-4s} }{ q^{-6s}y^{-8a-2} }  \\
+&amp;=    \frac{  81q^{6s} }{ q^{4s}y^{-(8a+2)} }  \\
+&amp;=  <correct>81q^{2s} y^{8a+2}</correct>
+\end{aligned}
+</latex>
+		</solution>
+</entry>
+
+</problem-set>
+ </exercises>
+
+	</section>
+      </section>
+      <section type="section">
+        <shortcode>EM39V</shortcode>
+<title>Rational exponents and surds</title>
+        <para>
+The laws of exponents can also be extended to include the rational numbers.
+A rational number is any number that can be written as a fraction with an integer in the numerator and in the denominator.
+We also have the following definitions for working with rational exponents.
+	</para>
+        <math_identity>
+	  <para>
+	    <list list-type="bulleted">
+	      <item>If <latex>r^n = a</latex>, then <latex>r = \sqrt[n]{a} \quad (n \geq 2)</latex></item>
+	      <item><latex>a^{\frac{1}{n}} = \sqrt[n]{a}</latex></item>
+	      <item><latex>a^{-\frac{1}{n}} = (a^{-1})^{\frac{1}{n}} = \sqrt[n]{\frac{1}{a}}</latex></item>
+	      <item><latex>a^{\frac{m}{n}} = (a^{m})^{\frac{1}{n}} = \sqrt[n]{a^m}</latex></item>
+	    </list>
+	    where <latex>a &gt; 0</latex>, <latex>r &gt; 0</latex> and <latex>m,n \in ℤ</latex>, <latex>n \ne 0</latex>.</para>
+	</math_identity>
+	<para>For <latex>\sqrt{25} = 5</latex>, we say that <number>5</number> is the square root of <number>25</number> and for <latex>\sqrt[3]{8} = 2</latex>, we say that <number>2</number> is the cube root of <number>8</number>.
+	For <latex>\sqrt[5]{32} = 2</latex>, we say that <number>2</number> is the fifth root of <number>32</number>.</para> 
+	<para>
+When dealing with exponents, a root refers to a number that is repeatedly multiplied by itself a certain number of times to get another number.
+A radical refers to a number written as shown below.
+	</para>
+	<pspicture>
+	  <code>
+(0.3,-1)(6.1,1.2)
+
+\uput[l](1.96,0.1){\small radical sign}
+
+\rput(3.091875,0.148125){\Large $\sqrt[n]a$}
+
+\uput[u](3,0.71){\small degrees}
+\psline[linewidth=0.01cm,arrowsize=0.05291667cm 2.0,arrowlength=1.4,arrowinset=0.4]{-&gt;}(1.96,0.1)(2.56,0.1)
+\psline[linewidth=0.01cm,arrowsize=0.05291667cm 2.0,arrowlength=1.4,arrowinset=0.4]{-&gt;}(3,0.71)(3,0.3115625)
+\psline[linewidth=0.01cm,arrowsize=0.05291667cm 2.0,arrowlength=1.4,arrowinset=0.4]{-&gt;}(3.32,-0.59)(3.32,-0.1884375)
+
+\uput[d](3.32,-0.59){\small radicand}
+
+\rput(4.9,0.113125){\small radical}
+
+\rput(4.2,0.1115625){\Huge \}}
+	  </code>
+	</pspicture>
+<!--video 5 explaining radicals and basic examples-->
+          <video>
+            <title>Understanding rational exponents</title>
+            <shortcode>todo</shortcode>
+	    <url>http://www.khanacademy.org/embed_video?v=6QJtWfIiyZo</url>
+	    <width>300</width>
+    	    <height>245</height>
+	    <url>http://www.khanacademy.org/math/algebra/exponents-radicals/v/simplifying-radicals?playlist=Pre-algebra</url>
+          </video>
+
+	<para>The radical symbol and degree show which root is being determined. The radicand is the number under the radical symbol.</para>
+	<list list-type="bulleted">
+	  <item>
+	    <para>If <latex>n</latex> is an even natural number, then the radicand must be positive, otherwise the roots are not real. For example, <latex>\sqrt[4]{16} = 2</latex> since <latex>2 \times 2 \times 2 \times 2 = 16</latex>, but the roots of <latex>\sqrt[4]{-16}</latex> are not real since <latex>(-2) \times (-2)  \times (-2) \times (-2) \ne -16</latex>.</para>
+	  </item>
+	  <item>
+	    <para>If <latex>n</latex> is an odd natural number, then the radicand can be positive or negative. For example, <latex>\sqrt[3]{27} = 3</latex> since <latex>3 \times 3 \times 3 = 27</latex> and we can also determine <latex>\sqrt[3]{-27} = -3</latex> since <latex>(-3) \times (-3) \times (-3) = -27</latex>.</para>
+	  </item>
+	</list>
+	<para>It is also possible for there to be more than one <nth>n</nth> root of a number. For example, <latex>\left(-2\right)^2 = 4</latex> and <latex>2^2 = 4</latex>, so both <number>-2</number> and <number>2</number> are square roots of <number>4</number>.</para>
+	<para>A surd is a radical which results in an irrational number. Irrational numbers are numbers that cannot be written as a fraction with the numerator and the denominator as integers. For example, <latex>\sqrt{12}</latex>, <latex>\sqrt[3]{<number>100</number>}</latex>, <latex>\sqrt[5]{25}</latex> are surds.</para>
+	<worked_example>
+	  <title>Rational exponents</title>
+	  <question>
+	    <para>Write each of the following as a radical and simplify where possible:</para>
+	    <list list-type="enumerated">
+	      <item><latex>18^\frac{1}{2}</latex></item>
+	      <item><latex>(<number>-125</number>)^{-\frac{1}{3}}</latex></item>
+	      <item><latex>4^\frac{3}{2}</latex></item>
+	      <item><latex>(-81)^\frac{1}{2}</latex></item>
+	      <item><latex>(<number>0.008</number>)^\frac{1}{3}</latex></item>
+	    </list>
+	  </question>
+	  <answer>
+	    <list list-type="enumerated">
+	      <item><latex>18^\frac{1}{2} = \sqrt{18}</latex></item>
+	      <item><latex>(<number>-125</number>)^{-\frac{1}{3}}  = \sqrt[3]{(<number>-125</number>)^{-1}} = \sqrt[3]{\dfrac{1}{<number>-125</number>}} = \sqrt[3]{\dfrac{1}{(-5)^3}}  = -\dfrac{1}{5} </latex></item>
+	      <item><latex>4^\frac{3}{2} = (4^3)^{\frac{1}{2}} = \sqrt{4^3} = \sqrt{64} = 8</latex></item>
+	      <item><latex>(-81)^\frac{1}{2} = \sqrt{-81} = </latex> not real</item>
+	      <item><latex>(<number>0.008</number>)^\frac{1}{3} = \sqrt[3]{\dfrac{8}{<number>1000</number>}} = \sqrt[3]{\dfrac{2^3}{10^3}} = \frac{2}{10} = \dfrac{1}{5}</latex></item>
+	    </list>
+	  </answer>
+	</worked_example>
+
+<!--video 6 more complex example of simplifying radical uses colour well -->
+          <video>
+            <title>Rational exponents</title>
+            <shortcode>todo</shortcode>
+	    <url>http://www.khanacademy.org/embed_video?v=4F6cFLnAAFc</url>
+	    <width>300</width>
+    	    <height>245</height>
+	    <url>http://www.khanacademy.org/math/algebra/exponents-radicals/v/fractional-exponent-expressions-2</url>
+          </video>
+
+         <worked_example>
+            <title>Rational exponents</title>
+            <question>
+              <para>Simplify without using a calculator:</para>
+	      <latex display="block">
+		\left(\frac{5}{4^{-1}-9^{-1}}\right)^{\frac{1}{2}}
+	      </latex>
+            </question>
+            <answer>
+              <workstep>
+                <title>Write the fraction with positive exponents in the denominator</title>
+                <para><latex display="block">
+								\left( \dfrac{5}{\frac{1}{4} - \frac{1}{9}} \right)^{\frac{1}{2}} 
+		   					</latex></para>
+              </workstep>
+              <workstep>
+                <title>Simplify the denominator</title>
+                <para><latex display="block">
+		  								\begin{align}
+		  								&amp;= \left( \dfrac{5}{\frac{9-4}{36}} \right)^{\frac{1}{2}} \\
+		  								&amp;= \left( \dfrac{5}{\frac{5}{36}} \right)^{\frac{1}{2}} \\
+		  								&amp;= \left( 5 \div \frac{5}{36} \right)^{\frac{1}{2}} \\
+		  								&amp;= \left( 5 \times \frac{36}{5} \right)^{\frac{1}{2}} \\
+		  								&amp;= (36)^{\frac{1}{2}} 
+		   								\end{align}
+		   					</latex></para>
+              </workstep>
+              <workstep>
+                <title>Take the square root</title>
+                <para><latex display="block">
+		  								\begin{align}
+		  								&amp;= \sqrt{36}\\
+		  								&amp;= 6
+		   								\end{align}
+		   					</latex></para>
+              </workstep>
+             </answer>
+          </worked_example>
+
+
+<!--video 7 more radical examples explained-->
+
+          <video>
+            <title>Rational exponents</title>
+            <shortcode>VMebb</shortcode>
+	    <url>http://www.youtube.com/embed/NuccqpiUHrk</url>
+	    <width>300</width>
+    	    <height>245</height>
+	    <url>http://www.khanacademy.org/video/rational-exponents-and-exponent-laws?playlist=Developmental+Math+3</url>
+          </video> 
+
+          <exercises><title>Rational exponents and surds</title>
+<problem-set style:columns="2">
+  <header>
+						<para>Simplify the following and write answers with positive exponents:</para>
+  </header>
+  <entry>
+    <shortcode>todo</shortcode>
+    <problem>
+<para><latex>\sqrt{49}</latex></para> 
+    </problem>
+    <solution><para><latex>\sqrt{49} =  <correct>7</correct> </latex></para>
+		</solution>
+</entry>
+  <entry>
+    <shortcode>todo</shortcode>
+    <problem>
+<para><latex>\sqrt{36^{-1}}</latex></para>
+    </problem>
+    <solution>
+<latex display="block"> 
+\begin{aligned}
+36^{-\frac{1}{2}}
+&amp;=    \frac{1}{36^{\frac{1}{2}}} \\
+&amp;=    \frac{1}{\sqrt{36}}  \\
+&amp;=    <correct>\frac{1}{6}</correct>
+\end{aligned}
+</latex>
+		</solution>
+</entry>
+  <entry>
+    <shortcode>todo</shortcode>
+    <problem>
+<para><latex>\sqrt[3]{6^{-2}}</latex></para>
+    </problem>
+    <solution>
+<latex display="block"> 
+\begin{aligned}
+6^{-\dfrac{2}{3}}
+&amp;=    \frac{1}{6^{\frac{2}{3}}}\\
+&amp;=    \frac{1}{\sqrt[3]{6^2}} \\
+&amp;=    <correct>\frac{1}{\sqrt[3]{36}}</correct>
+\end{aligned}
+</latex>
+		</solution>
+</entry>
+  <entry>
+    <shortcode>todo</shortcode>
+    <problem>
+<para><latex>\sqrt[3]{-\dfrac{64}{27}}</latex></para>
+    </problem>
+    <solution>
+<latex display="block"> 
+\begin{aligned}
+\sqrt[3]{-\dfrac{64}{27}}
+&amp;=   \sqrt[3]{-\frac{4^3}{3^3}} \\
+&amp;=    \sqrt[3]{ \left( -\frac{4}{3} \right)^3}  \\
+&amp;=    <correct>-\frac{4}{3}</correct>
+\end{aligned}
+</latex>
+	</solution>
+</entry>
+  <entry>
+    <shortcode>todo</shortcode>
+    <problem>
+<para><latex>\sqrt[4]{(16x^4)^3}</latex></para>
+    </problem>
+    <solution>
+<latex display="block"> 
+\begin{aligned}
+\sqrt[4]{(16x^4)^3} 
+&amp;= \left( (16x^4)^3 \right)^{\frac{1}{4}} \\
+&amp;=  \left( 2^4x^4 \right)^{\frac{3}{4}}  \\
+&amp;=   2^3x^3   \\
+&amp;=    <correct>8x^3</correct>
+\end{aligned}
+</latex>
+		</solution>
+</entry>
+</problem-set>
+
+<problem-set>
+  <header>
+		<para>Simplify:</para>
+  </header>
+  <entry>
+    <shortcode>todo</shortcode>
+    <problem>
+      <para>   <latex>{s}^{\frac{1}{2}}÷{s}^{\frac{1}{3}}</latex></para>
+    </problem>
+    <solution>
+<latex display="block"> 
+\begin{aligned}
+s^{\frac{1}{2}} \div s^{\frac{1}{3}}
+&amp;= s^{\frac{1}{2}} \times \frac{1}{s^{\frac{1}{3}}} \\
+&amp;=  s^{\frac{1}{2} - \frac{1}{3}} \\
+&amp;=   s^{\frac{3}{6} - \frac{2}{6}}  \\
+&amp;=    <correct>s^{\frac{1}{6}} </correct>
+\end{aligned}
+</latex>
+		</solution>
+  </entry>
+  <entry>
+    <shortcode>todo</shortcode>
+    <problem>
+      <para>     <latex>{\left(64{m}^{6}\right)}^{\frac{2}{3}}</latex></para>
+    </problem>
+    <solution>
+<latex display="block"> 
+\begin{aligned}
+\left( 64m^6 \right)^{\frac{2}{3}}
+&amp;=  \left( 2^6 \right)^{\frac{2}{3}}  \left( m^6 \right)^{\frac{2}{3}} \\
+&amp;= \left( 2^4 \right)   \left( m^4 \right)  \\
+&amp;=    <correct>16m^4</correct>
+\end{aligned}
+</latex>
+		</solution>
+  </entry>
+  <entry>
+    <shortcode>todo</shortcode>
+    <problem>
+      <latex>\dfrac{12m^{ \frac{7}{9}}}{8m^{- \frac{11}{9}}}</latex>
+    </problem>
+    <solution>
+<latex display="block"> 
+\begin{aligned}
+\dfrac{12m^{\frac{7}{9}}}{8m^{-\frac{11}{9}}}
+&amp;=  \frac{3}{2} m^{ \frac{7}{9}} - \left( - \frac{11}{9} \right) \\
+&amp;= \frac{3}{2} m^{\frac{18}{9}} \\
+&amp;=    <correct>\frac{3}{2}m^{2}</correct>
+\end{aligned}
+</latex>
+		</solution>
+  </entry>
+  <entry>
+	      <shortcode>016e</shortcode>
+    <problem>
+      <para><latex>\left(5x\right)^0 + 5x^0 - \left(<number>0.25</number>\right)^{<number>-0.5</number>} + 8^{\frac{2}{3}}</latex>  </para>
+    </problem>
+    <solution>
+<latex display="block"> 
+\begin{aligned}
+ \left(5x\right)^0 + 5x^0 - \left(<number>0.25</number>\right)^{<number>-0.5</number>} + 8^{\frac{2}{3}}   
+&amp;=    \left(1 \right) + 5(1)- \left( \frac{1}{4} \right)^{-\frac{1}{2}} + \left(2^3 \right)^{\frac{2}{3}}   \\
+&amp;=    6 - 4^{\frac{1}{2}} + 4   \\
+&amp;=    10 - 2  \\
+&amp;=    <correct>8</correct>
+\end{aligned}
+</latex>
+		</solution>
+</entry>
+</problem-set>
+
+
+	    <entry>
+	      <shortcode>016f</shortcode>
+	      <problem>
+		<para>Use the laws to re-write the following expression as a power of <latex>x</latex>:</para>
+		<latex>x\sqrt{x\sqrt{x\sqrt{x\sqrt{x}}}}</latex>
+              </problem>
+    <solution>
+<latex display="block"> 
+\begin{aligned}
+ x \sqrt{x \sqrt{x\sqrt{x\sqrt{x}}}} 
+&amp;=    x \times x^{\frac{1}{2}} \times x^{\frac{1}{4}} \times x^{\frac{1}{8}} \times x^{\frac{1}{16}} \\
+&amp;=   x^{\frac{16}{16}} \times x^{\frac{8}{16}} \times x^{\frac{4}{16}} \times x^{\frac{2}{16}}\times x^{\frac{1}{16}}   \\
+&amp;=    <correct>x^{\frac{31}{16}}</correct>
+\end{aligned}
+</latex>
+		</solution>
+	    </entry>
+	  </exercises>
+       <section type="subsection">
+        <shortcode>EM39W</shortcode>
+<title>Simplification of surds</title>
+        <para>We have seen in previous examples and exercises that rational exponents are closely related to surds.  It is often useful to write a surd in exponential notation as it allows us to use the exponential laws. </para>
+<para>The additional laws listed below make simplifying surds easier:</para>
+         <math_identity>
+          <list list-type="bulleted">
+          <item><latex>\sqrt[n]{a}\sqrt[n]{b} = \sqrt[n]{ab}</latex></item>
+          <item><latex>\sqrt[n]{\dfrac{a}{b}} = \dfrac{\sqrt[n]{a}}{\sqrt[n]{b}}</latex></item>
+          <item><latex>\sqrt[m]{\sqrt[n]{a}} = \sqrt[mn]{a}</latex></item>
+          <item><latex>\sqrt[n]{a^m} = a^{\frac{m}{n}}</latex></item>
+          <item><latex>\left( \sqrt[n]{a} \right)^m = a^{\frac{m}{n}}</latex></item>
+					</list>
+				</math_identity>
+
+				<worked_example>
+            <title>Simplifying surds</title>
+            <question>
+              <para>Show that:</para>
+									<list list-type="enumerated">
+          					<item><latex>\sqrt[n]{a} \times \sqrt[n]{b} = \sqrt[n]{ab}</latex></item>
+         						<item><latex>\sqrt[n]{\dfrac{a}{b}} = \dfrac{\sqrt[n]{a}}{\sqrt[n]{b}}</latex></item>
+									</list>	
+            </question>
+            <answer>
+	      <list list-type="enumerated">
+          	<item>
+		  <latex display="block">
+		    \begin{align}
+		    \sqrt[n]{a} \times \sqrt[n]{b}
+		    &amp;= a^{\frac{1}{n}} \times b^{\frac{1}{n}} \\
+		    &amp;= (ab)^{\frac{1}{n}} \\
+		    &amp;= \sqrt[n]{ab}
+		    \end{align}
+		  </latex>
+		</item>
+		<item>
+ 		  <latex display="block">
+		    \begin{align}
+		    \sqrt[n]{\frac{a}{b}}
+		    &amp;= \left( \frac{a}{b} \right)^{\frac{1}{n}} \\
+		    &amp;= \dfrac{a^{\frac{1}{n}}}{b^{\frac{1}{n}}} \\
+		    &amp;= \dfrac{\sqrt[n]{a}}{\sqrt[n]{b}}
+		    \end{align}
+		  </latex>
+		</item>
+	      </list>	
+           </answer>
+         </worked_example>     
+          <para>Examples:</para>
+          <list list-type="enumerated">
+            <item>
+              <para><latex>\sqrt{2} \times \sqrt{32} = \sqrt{2 \times 32} = \sqrt{64} = 8</latex></para>
+            </item>
+            <item>
+              <para><latex>\dfrac{\sqrt[3]{24}}{\sqrt[3]{3}} = \sqrt[3]{\dfrac{24}{3}} = \sqrt[3]{8} = 2 </latex></para>
+            </item>
+            <item>
+              <para><latex>\sqrt{\sqrt{81}} = \sqrt[4]{81} = \sqrt[4]{3^4} = 3 </latex></para>
+            </item>
+          </list>
+       </section>
+<section type="subsection">
+          <title>Like and unlike surds</title>
+          <shortcode>EM39X</shortcode>
+          <para>Two surds <latex>\sqrt[m]{a}</latex> and <latex>\sqrt[n]{b}</latex> are like surds if <latex>m=n</latex>, otherwise they are called unlike surds. For example, <latex>\sqrt{\frac{1}{3}}</latex> and <latex>-\sqrt{61}</latex> are like surds because <latex>m = n = 2</latex>. Examples of unlike surds are <latex>\sqrt[3]{5} \text{ and } \sqrt[5]{7y^3}</latex> since <latex>m \ne n</latex>.</para>
+     </section>
+        <section type="subsection">
+          <title>Simplest surd form</title>
+          <shortcode>EM39Y</shortcode>
+          <para>We can sometimes simplify surds by writing the radicand as a product of factors that can be further simplified using <latex>\sqrt[n]{ab} = \sqrt[n]{a} \times \sqrt[n]{b}</latex>.</para>
+
+<!--video 8 many examples in this for writing in simplest form-->
+          <video>
+            <title>Simplifying surds</title>
+            <shortcode>VMecu</shortcode>
+	    <url>http://www.khanacademy.org/embed_video?v=BpBh8gvMifs</url>
+	    <width>300</width>
+    	    <height>245</height>
+	    <url>http://www.khanacademy.org/math/algebra/exponents-radicals/v/square-roots-and-real-numbers</url>
+          </video>
+
+				<worked_example>
+            <title>Simplest surd form</title>
+            <question>
+              <para>Write the following in simplest surd form: <latex>\sqrt{50}</latex></para>
+						</question>
+            <answer>
+              <workstep>
+                <title>Write the radicand as a product of prime factors</title>
+                <para><latex display="block">
+		  								\begin{align}
+		  								\sqrt{50} &amp;= \sqrt{5 \times 5 \times 2} \\
+		  								          &amp;= \sqrt{5^2 \times 2}
+		   								\end{align}
+		   					</latex></para>
+              </workstep>
+           		<workstep>
+                <title>Simplify using <latex>\sqrt[n]{ab} = \sqrt[n]{a} \times \sqrt[n]{b}</latex></title>
+                <para><latex display="block">
+		  								\begin{align}
+		  								&amp;= \sqrt{5^2} \times \sqrt{2} \\  
+		  								&amp;= 5 \times \sqrt{2} \\ 			
+		  								&amp;= 5\sqrt{2}					
+		   								\end{align}
+		   					</latex></para>
+              </workstep>
+           </answer>
+         </worked_example>
+					<para>Sometimes a surd cannot be simplified.  For example, <latex>\sqrt{6}, \sqrt[3]{30} \text{ and } \sqrt[4]{42}</latex> are already in their simplest form.</para>
+				<worked_example>
+            <title>Simplest surd form</title>
+            <question>
+              <para>Write the following in simplest surd form: <latex>\sqrt[3]{54}</latex></para>
+						</question>
+            <answer>
+              <workstep>
+                <title>Write the radicand as a product of prime factors</title>
+                <para><latex display="block">
+		  								\begin{align}
+		  								\sqrt[3]{54} &amp;= \sqrt[3]{3 \times 3 \times 3 \times 2} \\
+		  								             &amp;= \sqrt[3]{3^3 \times 2}
+		   								\end{align}
+		   					</latex></para>
+              </workstep>
+           		<workstep>
+                <title>Simplify using <latex>\sqrt[n]{ab} = \sqrt[n]{a} \times \sqrt[n]{b}</latex></title>
+                <para><latex display="block">
+		  								\begin{align}
+		  								&amp;= \sqrt[3]{3^3} \times \sqrt[3]{2} \\  
+		  								&amp;= 3 \times \sqrt[3]{2} \\ 			
+		  								&amp;= 3\sqrt[3]{2}					
+		   								\end{align}
+		   					</latex></para>
+              </workstep>
+           </answer>
+         </worked_example>
+         <worked_example>
+            <title>Simplest surd form</title>
+            <question>
+              <para>Simplify: <latex>\sqrt{<number>147</number>}+\sqrt{<number>108</number>}</latex></para>
+            </question>
+            <answer>
+              <workstep>
+                <title>Write the radicands as a product of prime factors</title>
+                <para><latex display="block">
+		    \begin{align}
+		    \sqrt{<number>147</number>} + \sqrt{<number>108</number>} &amp;= \sqrt{49 \times 3} + \sqrt{36 \times 3} \\
+		    &amp;= \sqrt{7^2 \times 3} + \sqrt{6^2 \times 3}
+		    \end{align}
+		</latex></para>
+              </workstep>
+              <workstep>
+                <title>Simplify using <latex>\sqrt[n]{ab} = \sqrt[n]{a} \times \sqrt[n]{b}</latex></title>
+                <para><latex display="block">
+		    \begin{align}
+		    &amp;= \left( \sqrt{7^2} \times \sqrt{3} \right) + \left( \sqrt{6^2} \times \sqrt{3} \right)\\  
+		    &amp;= \left( 7 \times \sqrt{3} \right) +  \left( 6 \times \sqrt{3} \right) \\   			
+		    &amp;= 7\sqrt{3} + 6\sqrt{3}			
+		    \end{align}
+		</latex></para>
+              </workstep>
+              <workstep>
+                <title>Simplify and write the final answer</title>
+                <para><latex display="block">
+		    13 \sqrt{3}
+		</latex></para>
+              </workstep>
+            </answer>
+          </worked_example>
+         <worked_example>
+            <title>Simplest surd form</title>
+            <question>
+              <para>Simplify: <latex>\left( \sqrt{20} - \sqrt{5} \right)^2</latex></para>
+            </question>
+            <answer>
+              <workstep>
+                <title>Factorise the radicands were possible</title>
+                <para><latex display="block">
+		    \left( \sqrt{20} - \sqrt{5} \right)^2 = \left( \sqrt{4 \times 5} - \sqrt{5} \right)^2			
+		</latex></para>
+              </workstep>
+              <workstep>
+                <title>Simplify using <latex>\sqrt[n]{ab} = \sqrt[n]{a} \times \sqrt[n]{b}</latex></title>
+                <para><latex display="block">
+		    \begin{align}
+		    &amp;= \left( \sqrt{4} \times \sqrt{5} - \sqrt{5} \right)^2	 \\  
+		    &amp;= \left( 2 \times \sqrt{5} - \sqrt{5} \right)^2	 \\  			
+		    &amp;= \left( 2\sqrt{5} - \sqrt{5} \right)^2
+		    \end{align}
+		</latex></para>
+              </workstep>
+              <workstep>
+                <title>Simplify and write the final answer</title>
+                <para><latex display="block">
+		    \begin{align}  			
+		    &amp;= \left( \sqrt{5} \right)^2	 \\
+		    &amp;= 5	 
+		    \end{align}
+		   					</latex></para>
+              </workstep>
+            </answer>
+          </worked_example>
+         <worked_example>
+            <title>Simplest surd form with fractions</title>
+            <question>
+              <para>Write in simplest surd form: <latex>\sqrt{75} \times \sqrt[3]{(48)^{-1}}</latex></para>
+            </question>
+            <answer>
+              <workstep>
+                <title>Factorise the radicands were possible</title>
+                <para><latex display="block">
+		    \begin{align}
+		    \sqrt{75} \times \sqrt[3]{(48)^{-1}} 	&amp;= \sqrt{25 \times 3} \times \sqrt[3]{\frac{1}{48}} \\		
+		    &amp;= \sqrt{25 \times 3} \times \frac{1}{\sqrt[3]{8 \times 6}} 
+		    \end{align}
+		</latex></para>
+              </workstep>
+              <workstep>
+                <title>Simplify using <latex>\sqrt[n]{ab} = \sqrt[n]{a} \times \sqrt[n]{b}</latex></title>
+                <para><latex display="block">
+		    \begin{align}
+		    &amp;= \sqrt{25} \times \sqrt{3} \times \frac{1}{\sqrt[3]{8} \times \sqrt[3]{6}} \\  
+		    &amp;= 5 \times \sqrt{3} \times \frac{1}{2 \times \sqrt[3]{6}}  					
+		    \end{align}
+		</latex></para>
+              </workstep>
+              <workstep>
+                <title>Simplify and write the final answer</title>
+                <para><latex display="block">
+		    \begin{align}  			
+		    &amp;= 5\sqrt{3} \times \frac{1}{2\sqrt[3]{6}} \\
+		    &amp;= \frac{5\sqrt{3}}{2\sqrt[3]{6}} 
+		    \end{align}
+		</latex></para>
+              </workstep>
+            </answer>
+          </worked_example>
+
+
+          <exercises><title>Simplification of surds</title>
+<problem-set>
+  <header>
+						<para>Simplify the following and write answers with positive exponents:</para>
+  </header>
+  <entry>
+    <shortcode>todo</shortcode>
+    <problem>
+<para><latex>\sqrt[3]{16} \times \sqrt[3]{4}</latex></para> 
+    </problem>
+    <solution> <para><latex>\sqrt[3]{16} \times \sqrt[3]{4} = \sqrt[3]{16 \times 4} = \sqrt[3]{64} = <correct>4</correct> </latex></para>  
+		</solution>
+</entry>
+  <entry>
+    <shortcode>todo</shortcode>
+    <problem>
+<para><latex>\sqrt{a^2b^3} \times \sqrt{b^5c^4}</latex></para>
+    </problem>
+    <solution><para><latex>\sqrt{a^2b^3} \times \sqrt{b^5c^4} = \sqrt{a^2b^8c^4} = <correct>ab^4c^2</correct></latex></para>
+		</solution>
+</entry>
+  <entry>
+    <shortcode>todo</shortcode>
+    <problem>
+<para><latex>\dfrac{\sqrt{12}}{\sqrt{3}}</latex></para>
+    </problem>
+    <solution><para><latex>\dfrac{\sqrt{12}}{\sqrt{3}} = \sqrt{\dfrac{12}{3}} = \sqrt{4} = <correct>2</correct></latex></para>
+		</solution>
+</entry>
+  <entry>
+    <shortcode>todo</shortcode>
+    <problem>
+<para><latex>\sqrt{x^2y^{13}} \div \sqrt{y^5}</latex></para>
+    </problem>
+    <solution><para><latex>\sqrt{x^2y^{13}} \div \sqrt{y^5} = \sqrt{\frac{x^2y^{13}}{y^5}} = \sqrt{x^2y^8} = <correct>xy^4</correct></latex></para>
+		</solution>
+</entry>
+</problem-set>
+
+<problem-set>
+  <header>
+						<para>Simplify the following:</para>
+  </header>
+	    <entry>
+	      <shortcode>todo</shortcode>
+	      <problem>
+	    <para><latex>\left( \dfrac{1}{a} - \dfrac{1}{b} \right)^{-1} </latex></para>
+	          </problem>
+              <solution>
+       <latex display="block">
+						\begin{align}
+						\left( \dfrac{1}{a} - \dfrac{1}{b} \right)^{-1}  &amp;= \left( \dfrac{b - a}{ab} \right)^{-1}  \\  
+						&amp;=  <correct>\frac{ab}{b - a}</correct> 	
+						\end{align}
+			</latex> 
+	      </solution>
+	    </entry>
+	    <entry>
+	      <shortcode>todo</shortcode>
+	      <problem>
+	    <para><latex>\dfrac{b-a}{a^{\frac{1}{2}} - b^{\frac{1}{2}}} </latex></para>
+	          </problem>
+              <solution>
+       <latex display="block">
+						\begin{align}
+						\dfrac{b-a}{a^{\frac{1}{2}} - b^{\frac{1}{2}}}   &amp;= - \dfrac{a - b}{a^{\frac{1}{2}} - b^{\frac{1}{2}}}  \\  
+							 &amp;= - \dfrac{ \left( a^{\frac{1}{2}} \right)^2- \left( b^{\frac{1}{2}} \right)^2}{a^{\frac{1}{2}} - b^{\frac{1}{2}}}  \\  
+							 &amp;= - \dfrac{ \left( a^{\frac{1}{2}} - b^{\frac{1}{2}} \right)\left( a^{\frac{1}{2}} + b^{\frac{1}{2}} \right) } {a^{\frac{1}{2}} - b^{\frac{1}{2}}} \\ 
+							 &amp;= <correct>-  \left( a^{\frac{1}{2}} + b^{\frac{1}{2}} \right)</correct> 	
+						\end{align}
+			</latex> 
+	      </solution>
+	    </entry>
+</problem-set>
+	    </exercises>
+        </section>
+<section type="subsection">
+          <title>Rationalising denominators</title>
+          <shortcode>EM39Z</shortcode>
+          <para>It is often easier to work with fractions that have rational denominators instead of surd denominators. By rationalising the denominator, we convert a fraction with a surd in the denominator to a fraction that has a rational denominator.</para>
+          <worked_example>
+            <title>Rationalising the denominator</title>
+            <question>
+              <para>
+		Rationalise the denominator:
+		<latex display="block">
+		  \frac{5x-16}{\sqrt{x}}
+		</latex>
+	      </para>
+            </question>
+            <answer>
+              <workstep>
+                <title>Multiply the fraction by <latex>\frac{\sqrt{x}}{\sqrt{x}}</latex></title>
+                <para>Notice that <latex>\frac{\sqrt{x}}{\sqrt{x}}=1</latex>, so the value of the fraction has not been changed.</para>
+                <latex display="block">
+		  \frac{5x - 16}{\sqrt{x}} \times \frac{\sqrt{x}}{\sqrt{x}} = \frac{\sqrt{x}(5x - 16)}{\sqrt{x} \times \sqrt{x}}
+		</latex>
+              </workstep>
+              <workstep>
+                <title>Simplify the denominator</title>
+                <para><latex display="block">
+		    \begin{align}  			
+		    &amp;= \frac{\sqrt{x}(5x - 16)}{\left( \sqrt{x}\right)^2} \\
+		    &amp;= \frac{\sqrt{x}(5x - 16)}{x}
+		    \end{align}
+		</latex></para>
+                <para>The term in the denominator has changed from a surd to a rational number.  Expressing the surd in the numerator is the preferred way of writing expressions.</para>
+              </workstep>
+            </answer>
+          </worked_example>
+          <worked_example>
+            <title>Rationalising the denominator</title>
+            <question>
+              <para>
+		Write the following with a rational denominator:
+		<latex display="block">
+		  \frac{y-25}{\sqrt{y}+5}
+		</latex>
+	      </para>
+            </question>
+            <answer>
+              <workstep>
+                <title>Multiply the fraction by <latex>\frac{\sqrt{y}-5}{\sqrt{y}-5}</latex></title>
+		<para>To eliminate the surd from the denominator, we must multiply the fraction by an expression that will result in a difference of two squares in the denominator.</para>
+		<latex display="block">
+		  \frac{y-25}{\sqrt{y}+5} \times \frac{\sqrt{y}-5}{\sqrt{y}-5}
+		</latex>
+              </workstep>
+              <workstep>
+                <title>Simplify the denominator</title>
+             	<para><latex display="block">
+		    \begin{align}  			
+		    &amp;= \frac{(y-25)(\sqrt{y}-5)}{(\sqrt{y}+5)(\sqrt{y}-5)} \\
+		    &amp;= \frac{(y-25)(\sqrt{y}-5)}{(\sqrt{y})^2 -25} \\
+		    &amp;= \frac{(y-25)(\sqrt{y}-5)}{y-25} \\
+		    &amp;= \sqrt{y}-5
+		    \end{align}
+		</latex></para>
+              </workstep>
+            </answer>
+          </worked_example>
+
+<!--video 9-->
+<video>
+            <title>Rationalising the denominator</title>
+            <shortcode>VMeea</shortcode>
+	    <url>http://www.youtube.com/embed/Z3db5itCIiQ</url>
+	    <width>300</width>
+    	    <height>245</height>
+	    <url>http://www.khanacademy.org/video/rationalizing-denominators-of-expressions?playlist=Developmental+Math+3</url>
+          </video>
+	<exercises><title>Rationalising the denominator</title>
+<problem-set style:columns="2">
+  <header>
+ 						<para>Rationalise the denominator in each of the following:</para>
+  </header>
+  <entry>
+    <shortcode>todo</shortcode>
+    <problem>
+    <para><latex>\dfrac{10}{\sqrt{5}} </latex></para>
+    </problem>
+    <solution>
+<latex display="block"> 
+\begin{aligned}
+\dfrac{10}{\sqrt{5}}
+&amp;=\frac{10}{\sqrt{5}} \times \frac{\sqrt{5}}{\sqrt{5}} \\
+&amp;=\frac{10\sqrt{5}}{5} \\
+&amp;= <correct>2\sqrt{5}</correct>
+\end{aligned}</latex>
+		</solution>
+</entry>
+  <entry>
+    <shortcode>todo</shortcode>
+    <problem>
+    <para><latex>\dfrac{3}{\sqrt{6}}</latex></para>
+    </problem>
+    <solution>
+<latex display="block"> 
+\begin{aligned}
+\dfrac{3}{\sqrt{6}}
+&amp;=\frac{3}{\sqrt{6}} \times \dfrac{\sqrt{6}}{\sqrt{6}} \\
+&amp;=\frac{3\sqrt{6}}{6}  \\
+&amp;=<correct>\frac{\sqrt{6}}{2}</correct>
+\end{aligned}</latex>
+		</solution>
+</entry>
+  <entry>
+    <shortcode>todo</shortcode>
+    <problem>
+    <para><latex>\dfrac{2}{\sqrt{3}} \div \dfrac{\sqrt{2}}{3} </latex></para>
+    </problem>
+    <solution>
+<latex display="block"> 
+\begin{aligned}
+\dfrac{2}{\sqrt{3}} \div \dfrac{\sqrt{2}}{3}
+&amp;=\dfrac{2}{\sqrt{3}} \div \dfrac{\sqrt{2}}{3} \\
+&amp;=\dfrac{2}{\sqrt{3}} \times \dfrac{3}{\sqrt{2}}  \\
+&amp;=\dfrac{6}{\sqrt{6}} \times \dfrac{\sqrt{6}}{\sqrt{6}}  \\
+&amp;=\frac{6\sqrt{6}}{6}  \\
+&amp;=<correct>\sqrt{6}</correct>
+\end{aligned}</latex>
+		</solution>
+</entry>
+  <entry>
+    <shortcode>todo</shortcode>
+    <problem>
+    <para><latex>\dfrac{3}{\sqrt{5}-1} </latex></para>
+    </problem>
+    <solution>
+<latex display="block"> 
+\begin{aligned}
+\dfrac{3}{\sqrt{5}-1} 
+&amp;=\dfrac{3}{\sqrt{5}-1} \times \dfrac{\sqrt{5}+1}{\sqrt{5}+1} \\
+&amp;=\dfrac{3\sqrt{5}+3}{5-1} \\
+&amp;= <correct>\dfrac{3\sqrt{5}+3}{4}</correct>
+\end{aligned}</latex>
+
+		</solution>
+</entry>
+  <entry>
+    <shortcode>todo</shortcode>
+    <problem>
+    <para><latex>\dfrac{x}{\sqrt{y}} </latex></para>
+    </problem>
+    <solution>
+<latex display="block"> 
+\begin{aligned}
+\dfrac{x}{\sqrt{y}}
+&amp;=\dfrac{x}{\sqrt{y}}\times \dfrac{\sqrt{y}}{\sqrt{y}} \\
+&amp;=<correct>\dfrac{x\sqrt{y}}{y}</correct>
+\end{aligned}</latex>
+		</solution>
+</entry>
+  <entry>
+    <shortcode>todo</shortcode>
+    <problem>
+    <para><latex>\dfrac{\sqrt{3} + \sqrt{7}}{\sqrt{2}} </latex></para>
+    </problem>
+    <solution>
+<latex display="block"> 
+\begin{aligned}
+\dfrac{\sqrt{3} + \sqrt{7}}{\sqrt{2}} 
+&amp;=\dfrac{\sqrt{3}+\sqrt{7}}{\sqrt{2}} \times \dfrac{\sqrt{2}}{\sqrt{2}} \\
+&amp;=\dfrac{\sqrt{3}\sqrt{2}+\sqrt{7}\sqrt{2}}{2} \\
+&amp;=<correct>\dfrac{\sqrt{6}+\sqrt{14}}{2}</correct>
+\end{aligned}</latex>
+		</solution>
+</entry>
+  <entry>
+    <shortcode>todo</shortcode>
+    <problem>
+    <para><latex>\dfrac{3\sqrt{p} - 4}{\sqrt{p}} </latex></para>
+    </problem>
+    <solution>
+<latex display="block"> 
+\begin{aligned}
+\dfrac{3\sqrt{p} - 4}{\sqrt{p}} 
+&amp;=\dfrac{3\sqrt{p}-4}{\sqrt{p}} \times \dfrac{\sqrt{p}}{\sqrt{p}} \\
+&amp;=\dfrac{3\left ( \sqrt{p} \right )^2-4\left ( \sqrt{p} \right )}{p}  \\
+&amp;=<correct>\dfrac{3p-4\sqrt{p}}{p}</correct>
+\end{aligned}</latex>
+		</solution>
+</entry>
+  <entry>
+    <shortcode>todo</shortcode>
+    <problem>
+    <para><latex>\dfrac{t-4}{\sqrt{t} + 2} </latex></para>
+    </problem>
+    <solution>
+<latex display="block"> 
+\begin{aligned}
+\dfrac{t-4}{\sqrt{t} + 2}
+&amp;=\dfrac{t-4}{\sqrt{t}+2} \times \dfrac{\sqrt{t}-2}{\sqrt{t}-2} \\
+&amp;=\dfrac{\left ( t-4 \right )\left ( \sqrt{t}-2 \right )}{t-4} \\
+&amp;=<correct>\sqrt{t}-2</correct>
+\end{aligned}</latex>
+		</solution>
+</entry>
+  <entry>
+    <shortcode>todo</shortcode>
+    <problem>
+    <para><latex>\left( 1 + \sqrt{m} \right)^{-1} </latex></para>
+    </problem>
+    <solution>
+<latex display="block"> 
+\begin{aligned}
+\left( 1 + \sqrt{m} \right)^{-1} 
+&amp;=\frac{1}{1+\sqrt{m}}\times \frac{1-\sqrt{m}}{1-\sqrt{m}}  \\
+&amp;=<correct>\frac{1-\sqrt{m}}{1-m}</correct>
+\end{aligned}</latex>
+		</solution>
+</entry>
+  <entry>
+    <shortcode>todo</shortcode>
+    <problem>
+    <para><latex>a \left( \sqrt{a} \div \sqrt{b} \right)^{-1} </latex></para>
+    </problem>
+    <solution>
+<latex display="block"> 
+\begin{aligned}
+a \left( \sqrt{a} \div \sqrt{b} \right)^{-1}
+&amp;=a\left ( \sqrt{a} \times\frac{1}{\sqrt{b}} \right )^{-1} \\
+&amp;=a\left ( \frac{\sqrt{a}}{\sqrt{b}} \right )^{-1} \\
+&amp;=a\frac{\sqrt{b}}{\sqrt{a}} \times  \frac{\sqrt{a}}{\sqrt{a}}  \\
+&amp;=\frac{a\sqrt{ab}}{a}  \\
+&amp;=<correct>\sqrt{ab}</correct>
+\end{aligned}</latex>
+		</solution>
+</entry>
+</problem-set>
+
+	  </exercises>
+        </section>
+      </section>
+      <section type="section">
+        <title>Solving surd equations</title>
+        <shortcode>EM3B2</shortcode>
+        <para>We also need to be able to solve equations that involve surds.</para>
+<!--video 10 -->
+          <video>
+            <title>Solving surd equations</title>
+            <shortcode>todo</shortcode>
+	    <url>http://www.khanacademy.org/embed_video?v=b6WtwQddAcY</url>
+	    <width>300</width>
+    	    <height>245</height>
+	    <url>http://www.khanacademy.org/math/algebra/exponents-radicals/v/solving-radical-equations-2</url>
+          </video>
+        <worked_example>
+          <title>Surd equations</title>
+          <question>
+            <para>Solve for <latex>x</latex>: <latex>5\sqrt[3]{x^4} = <number>405</number></latex></para>
+          </question>
+          <answer>
+            <workstep>
+              <title>Write in exponential notation</title>
+              <para><latex display="block">
+		  \begin{align}  			
+		  5\left( x^4 \right)^{\frac{1}{3}}&amp;= <number>405</number> \\
+		  5x^{\frac{4}{3}}&amp;= <number>405</number>
+		  \end{align}
+	      </latex></para>
+            </workstep>
+            <workstep>
+              <title>Divide both sides of the equation by <number>5</number> and simplify</title>
+              <para><latex display="block">
+		  \begin{align}  			
+		  \frac{5x^{\frac{4}{3}}}{5} &amp;= \frac{<number>405</number>}{5} \\
+		  x^{\frac{4}{3}} &amp;= 81 \\
+		  x^{\frac{4}{3}} &amp;= 3^4
+		  \end{align}
+	      </latex></para>
+            </workstep>
+            <workstep>
+              <title>Simplify the exponents</title>
+              <para><latex display="block">
+		  \begin{align}  			
+		  \left( x^{\frac{4}{3}} \right)^{\frac{3}{4}} &amp;= \left( 3^4 \right)^{\frac{3}{4}} \\
+		  x  &amp;= 3^3 \\
+		  x  &amp;= 27
+		  \end{align}
+	      </latex></para>
+            </workstep>
+            <workstep>
+              <title>Check the solution by substituting the answer back into the original equation</title>
+              <para><latex display="block">
+		  \begin{align}  			
+		  \text{LHS}&amp;= 5\sqrt[3]{x^4}   \\
+		  &amp;= 5(27)^{\frac{4}{3}}   \\
+		  &amp;= 5(3^3)^{\frac{4}{3}}  \\
+		  &amp;= 5(3^4)  \\
+		  &amp;= <number>405</number>   \\
+		  &amp;= \text{RHS }
+		  \end{align}
+	      </latex></para>
+            </workstep>
+         </answer>
+        </worked_example>
+        <worked_example>
+          <title>Surd equations</title>
+          <question>
+            <para>Solve for <latex>z</latex>: <latex>z - 4\sqrt{z} + 3 = 0</latex></para>
+          </question>
+          <answer>
+ 	    <workstep>
+              <title>Factorise</title>
+	      <para><latex display="block">
+		  \begin{align} 
+		  z - 4\sqrt{z} + 3   &amp;= 0 \\ 			
+		  z - 4z^{\frac{1}{2}} + 3   &amp;= 0 \\
+		  (z^{\frac{1}{2}}-3)(z^{\frac{1}{2}}-1)   &amp;= 0
+		  \end{align}
+	      </latex></para>
+            </workstep>
+            <workstep>
+              <title>Solve for both factors</title>
+	      <para>The zero law states: if <latex>a \times b = 0</latex>, then <latex>a = 0</latex> or <latex>b = 0</latex>.</para>
+	      <para><latex display="block">
+		  \therefore (z^{\frac{1}{2}}-3) = 0 \text{ or } (z^{\frac{1}{2}}-1) = 0
+	      </latex></para>
+              <para>Therefore</para>
+	      <para><latex display="block">
+		  \begin{align}  			
+		  z^{\frac{1}{2}}-3 &amp;= 0 \\
+		  z^{\frac{1}{2}}   &amp;= 3 \\
+		  \left( z^{\frac{1}{2}} \right)^2 &amp;= 3^2 \\
+		  z &amp;= 9 
+		  \end{align}
+	      </latex></para>
+	      <para>or</para>
+	      <para><latex display="block">
+		  \begin{align}  			
+		  z^{\frac{1}{2}}-1 &amp;= 0 \\
+		  z^{\frac{1}{2}}   &amp;= 1 \\
+		  \left( z^{\frac{1}{2}} \right)^2 &amp;= 1^2 \\
+		  z &amp;= 1
+		  \end{align}
+	      </latex></para>
+            </workstep>
+            <workstep>
+              <title>Check the solution by substituting both answers back into the original equation</title>
+              <para>If <latex>z=9</latex>:</para>
+	      <para><latex display="block">
+		  \begin{align}  			
+		  \text{LHS}&amp;= z - 4\sqrt{z} + 3   \\
+		  &amp;= 9 - 4\sqrt{9} + 3    \\
+		  &amp;= 12 - 12   \\
+		  &amp;=  0   \\
+		  &amp;=\text{RHS }
+		  \end{align}
+	      </latex></para>
+              <para>If <latex>z=1</latex>:</para> 
+	      <para><latex display="block">
+		  \begin{align}  			
+		  \text{LHS} &amp;= z - 4\sqrt{z} + 3   \\
+		  &amp;= 1 - 4\sqrt{1} + 3  \\
+		  &amp;= 4-4  \\
+		  &amp;=  0   \\
+		  &amp;= \text{RHS }
+		  \end{align}
+	      </latex></para>
+            </workstep>
+	    <workstep>
+              <title>Write the final answer</title>
+              <para>The solution to <latex>z - 4\sqrt{z} + 3 = 0</latex> is <latex>z = 9</latex> or <latex>z = 1</latex>.</para>
+            </workstep>
+         </answer>
+        </worked_example>
+        <worked_example>
+          <title>Surd equations</title>
+          <question>
+            <para>Solve for <latex>p</latex>: <latex>\sqrt{p-2} - 3 = 0</latex></para>
+          </question>
+          <answer>
+            <workstep>
+              <title>Write the equation with only the square root on the left hand side</title>
+              <para>Use the additive inverse to get all other terms on the right hand side and only the square root on the left hand side.</para>
+	      <latex display="block">
+		\sqrt{p-2} = 3 
+	      </latex>
+            </workstep>
+            <workstep>
+              <title>Square both sides of the equation</title>
+	      <para><latex display="block">
+		  \begin{align}  			
+		  \left( \sqrt{p-2} \right)^2 &amp;= 3^2 \\
+		  p-2 &amp;= 9 \\
+		  p &amp;= 11
+		  \end{align}
+	      </latex></para>
+            </workstep>
+            <workstep>
+              <title>Check the solution by substituting the answer back into the original equation</title>
+              <para>If <latex>p=11</latex>:</para>
+	      <para><latex display="block">
+		  \begin{align}  			
+		  \text{LHS} &amp;=\sqrt{p-2} - 3   \\
+		  &amp;=\sqrt{11-2} - 3  \\
+		  &amp;=\sqrt{9} - 3  \\
+		  &amp;= 3-3   \\
+		  &amp;= 0   \\
+		  &amp;= \text{RHS } 
+		  \end{align}
+	      </latex></para>
+            </workstep>
+	    <workstep>
+              <title>Write the final answer</title>
+              <para>The solution to <latex>\sqrt{p-2} - 3 = 0</latex> is <latex>p = 11</latex>.</para>
+            </workstep>
+         </answer>
+        </worked_example>
+        <exercises><title>Solving surd equations</title>
+<problem-set style:columns="2">
+  <header>
+ <para>Solve for the unknown variable (remember to check that the solution is valid):</para>
+  </header>
+  <entry>
+    <shortcode>todo</shortcode>
+    <problem>
+      <para><latex>2^{x+1} -32 = 0 </latex></para>
+    </problem>
+    <solution>
+<latex display="block"> 
+\begin{aligned}
+2^{x+1}-32&amp;=0 \\
+2^{x+1}&amp;=32 \\
+2^{x+1}&amp;=2^5 \\
+\therefore x+1&amp;=5 \\
+x&amp;=4
+\end{aligned}</latex>
+		</solution>
+      <correct><latex>x = 4</latex></correct>
+</entry>
+  <entry>
+    <shortcode>todo</shortcode>
+    <problem>
+      <para><latex><number>125</number> \left ( 3^p \right ) = 27 \left ( 5^p \right ) </latex></para>
+    </problem>
+    <solution>
+<latex display="block"> 
+\begin{aligned}
+<number>125</number>\left ( 3^p \right ) &amp;= 27\left ( 5^p \right ) \\
+\frac{5^p}{3^p}&amp;=\frac{<number>125</number>}{27} \\
+\left ( \frac{5}{3} \right )^p &amp;= \left ( \frac{5}{3} \right )^3 \\
+\therefore p&amp;=3
+\end{aligned}</latex>
+		</solution>
+      <correct><latex>p = 3</latex></correct>
+</entry>
+  <entry>
+    <shortcode>todo</shortcode>
+    <problem>
+      <para><latex>2y^{\frac{1}{2}} - 3y^{\frac{1}{4}} + 1 = 0</latex></para>
+    </problem>
+    <solution>
+<latex display="block"> 
+\begin{aligned}
+2y^{\frac{1}{2}}-3y^{\frac{1}{4}}+1&amp;=0 \\
+\left ( 2y^\frac{1}{4} -1\right )\left ( y^\frac{1}{4} -1\right )&amp;=0 \\
+\text{Therefore } 2y^{\frac{1}{4}}-1&amp;=0  \\
+y^{\frac{1}{4}}-\frac{1}{2}&amp;=0 \\
+y^\frac{1}{4}&amp;=\frac{1}{2} \\
+y^\frac{4}{4} &amp;= \left ( \frac{1}{2} \right )^4 \\
+\therefore y&amp;=\frac{1}{16} \\
+\text{or} \\
+y^\frac{1}{4}-1&amp;=0 \\
+y^\frac{1}{4}&amp;=1 \\
+\therefore y&amp;=1
+\end{aligned}</latex>
+		</solution>
+      <correct><latex>y = 1</latex></correct>
+</entry>
+  <entry>
+    <shortcode>todo</shortcode>
+    <problem>
+      <para><latex>t-1 = \sqrt{7-t} </latex></para>
+    </problem>
+    <solution>
+<latex display="block"> 
+\begin{aligned}
+t-1 &amp;= \sqrt{7-t} \\
+\left ( t-1 \right )^2 &amp;= \left ( \sqrt{7-t} \right )^2 \\
+t^2 - 2t + 1 &amp;=  7-t  \\
+t^2 - t - 6 &amp;=0 \\
+(t - 3)(t + 2)&amp;= 0 \\
+\therefore  t =3  &amp;\textrm{ or } t = - 2 \\
+\textrm{Check RHS for } t = 3:  &amp;= \sqrt{7-3} \\
+   						&amp;= \sqrt{4} \\
+   						&amp;= 2 \\
+   						&amp;= \textrm{LHS} \therefore \textrm{ valid solution }\\
+\textrm{Check RHS for } t = -2:  &amp;= \sqrt{7-(-2)} \\
+   						&amp;= \sqrt{9} \\
+   						&amp;= 3 \\
+   						&amp;\ne \textrm{LHS} \therefore \textrm{ not valid solution } 
+\end{aligned}</latex>
+		</solution>
+      <correct><latex>t = 3</latex></correct>
+</entry>
+  <entry>
+    <shortcode>todo</shortcode>
+    <problem>
+     <para><latex>2z - 7\sqrt{z} + 3 = 0 </latex></para>
+    </problem>
+    <solution>
+<latex display="block"> 
+\begin{aligned}
+2z-7z^\frac{1}{2}+3&amp;=0 \\
+\left ( z^\frac{1}{2}-3 \right )\left ( 2z^\frac{1}{2}-1 \right )&amp;=0 \\
+\text{Therefore } z^\frac{1}{2}-3&amp;=0 \\
+\left ( z^\frac{1}{2} \right )^2 &amp;=3^2 \\
+\therefore z&amp;=9 \\
+\text{or}\\
+2z^\frac{1}{2}-1&amp;=0 \\
+\left ( z^\frac{1}{2} \right )^2&amp;=\left ( \frac{1}{2} \right )^2 \\
+\therefore z&amp;=\frac{1}{4}
+\end{aligned}</latex>
+		</solution>
+      <correct><latex>z = 9</latex> or <latex>z = \frac{1}{4}</latex></correct>
+</entry>
+  <entry>
+    <shortcode>todo</shortcode>
+    <problem>
+      <para><latex>x^{\frac{1}{3}}(x^{\frac{1}{3}} + 1) = 6 </latex></para>
+    </problem>
+    <solution>
+<latex display="block"> 
+\begin{aligned}
+x^\frac{1}{3}\left ( x^\frac{1}{3}+1 \right )&amp;=6 \\
+x^\frac{2}{3}+x^\frac{1}{3} &amp;=6 \\
+\left ( x^\frac{1}{3}-2 \right )\left ( x^\frac{1}{3}+3 \right ) &amp;= 0 \\
+\text{Therefore } x^\frac{1}{3}-2 &amp;= 0 \\
+x^\frac{1}{3} &amp;= 2 \\
+\therefore x&amp;=8 \\
+\text{or} \\
+x^\frac{1}{3}+3 &amp;= 0 \\
+x^\frac{1}{3} &amp;=-3 \\
+\therefore x &amp;= -27
+\end{aligned}</latex>
+		</solution>
+      <correct><latex>x = 8</latex> or <latex>x = -27</latex></correct>
+</entry>
+  <entry>
+    <shortcode>todo</shortcode>
+    <problem>
+      	    <para><latex>2^{4n} - \dfrac{1}{\sqrt[4]{16}} = 0 </latex></para>
+    </problem>
+    <solution>
+<latex display="block"> 
+\begin{aligned}
+2^{4n}-\dfrac{1}{\sqrt[4]{16}}&amp;=0\\
+2^{4n}&amp;=\dfrac{1}{16^\frac{1}{4}} \\
+2^{4n}&amp;=\dfrac{1}{\left (2^4  \right )^\frac{1}{4}} \\
+2^{4n}&amp;=\frac{1}{2} \\
+2^{4n}&amp;=2^{-1} \\
+\therefore 4n&amp;=-1 \\
+\therefore n &amp;=-\frac{1}{4}
+\end{aligned}</latex>
+		</solution>
+      <correct><latex>n = -\frac{1}{4}</latex></correct>
+</entry>
+  <entry>
+    <shortcode>todo</shortcode>
+    <problem>
+        <para><latex>\sqrt{31 -10d} = 4 - d </latex></para>
+    </problem>
+    <solution>
+<latex display="block"> 
+\begin{aligned}
+\sqrt{31-10d}&amp;=d-4 \\
+\left (\sqrt{31-10d}  \right )^2&amp;=\left (d-4  \right )^2 \\
+31-10d&amp;=d^2-8d+16 \\
+0&amp;=d^2+2d-15 \\
+0&amp;=\left ( d-3 \right )\left ( d+5 \right ) \\ 
+\text{Therefore } d&amp;= 3 \\
+\text{or} \\
+d&amp;= -5 \\
+\textrm{Check LHS for } d = 3:  &amp;= \sqrt{31 - 30} \\
+   						&amp;= \sqrt{1} \\
+   						&amp;= 1 \\
+   						&amp;= \textrm{RHS} \therefore \textrm{ valid solution }\\
+\textrm{Check LHS for } t = -5:  &amp;= \sqrt{31-(-50)} \\
+   						&amp;= \sqrt{81} \\
+   						&amp;= 9 \\
+   						&amp;= \textrm{RHS} \therefore \textrm{ valid solution }
+\end{aligned}</latex>
+		</solution>
+      <correct><latex>d = 3</latex> or <latex>d = -5</latex></correct>
+</entry>
+  <entry>
+    <shortcode>todo</shortcode>
+    <problem>
+     <para><latex>y - 10\sqrt{y} + 9 = 0 </latex></para>
+    </problem>
+    <solution>
+<latex display="block"> 
+\begin{aligned}
+y - 10\sqrt{y} + 9 &amp;= 0  \\
+y - 10y^{\frac{1}{2}} + 9 &amp;= 0  \\
+\left( y^{\frac{1}{2}} - 1  \right ) \left( y^{\frac{1}{2}} -9 \right )  &amp;= 0 \\
+\text{Therefore } y^{\frac{1}{2}} - 1  &amp;= 0 \\
+y^{\frac{1}{2}}  &amp;= 1 \\
+\left( y^{\frac{1}{2}} \right )^2 &amp;= (1)^2 \\
+\therefore y  &amp;= 1 \\
+\text{or} \\
+y^{\frac{1}{2}} - 9 &amp; = 0  \\
+y^{\frac{1}{2}}  &amp;= 9 \\
+\left( y^{\frac{1}{2}} \right )^2 &amp;= (9)^2 \\
+\therefore y  &amp;= 81 \\
+\end{aligned}</latex>
+		</solution>
+      <correct><latex>y = 1</latex> or <latex>y = 81</latex></correct>
+</entry>
+  <entry>
+    <shortcode>todo</shortcode>
+    <problem>
+    	    <para><latex>f = 2 + \sqrt{19 - 2f}</latex></para>
+    </problem>
+    <solution>
+<latex display="block"> 
+\begin{aligned}
+f &amp;= 2 + \sqrt{19 - 2f} \\
+f - 2 &amp;=   \sqrt{19 - 2f} \\
+\left( f - 2 \right )^2 &amp;=   \left( \sqrt{19 - 2f} \right )^2  \\
+f^2 - 4f + 4 &amp;= 19 - 2f  \\
+ f^2 - 2f -15  &amp;= 0 \\
+(f - 5)(f + 3)  &amp;= 0 \\
+\text{Therefore } f - 5  &amp;= 0 \\
+\therefore f  &amp;= 5 \\
+\text{or} \\
+f + 3  &amp; = 0  \\
+\therefore f  &amp;= -3 \\
+\textrm{Check RHS for } f = 5:  &amp;= 2 + \sqrt{19 - 10} \\
+   						&amp;= 2 + \sqrt{9} \\
+   						&amp;= 5 \\
+   						&amp;= \textrm{LHS} \therefore \textrm{ valid solution }\\
+\textrm{Check RHS for } f = -3:  &amp;= 2 + \sqrt{19 + 6}\\
+   						&amp;= 2 + \sqrt{25} \\
+   						&amp;= 7 \\
+   						&amp;\ne \textrm{LHS} \therefore \textrm{ not valid solution }
+\end{aligned}</latex>
+		</solution>
+      <correct><latex>f = 5</latex></correct>
+</entry>
+</problem-set>
+	</exercises>
+
+      </section>
+       <section type="section">
+         <title>Applications of exponentials</title>
+         <shortcode>EM3B3</shortcode>
+         <para>There are many real world applications that require exponents. For example, exponentials are used to determine population growth and they are also used in finance to calculate different types of interest.</para>
+         <worked_example>
+           <title>Applications of exponentials</title>
+           <question>
+             <para>
+A type of bacteria has a very high exponential growth rate at <percentage>80</percentage> every hour.
+If there are <number>10</number> bacteria, determine how many there will be in five hours, in one day and in one week?
+	     </para>
+           </question>
+           <answer>
+               <workstep>
+                   <title>Exponential formula</title>
+		   <latex display="block">
+		     \text{final population} = \text{initial population} \times (1 + \text{growth percentage})^{\text{time period in hours}}
+		   </latex>
+                   <para>
+		     Therefore, in this case:
+		     <latex display="block">\text{final population} = <number>10</number>\left(<number>1.8</number>\right)^n</latex>
+		     where <latex>n =</latex> number of hours.
+		   </para>
+            </workstep>
+            <workstep>
+              <title>In <number>5</number> hours</title>
+	      <para>
+final population = <latex><number>10</number>\left(<number>1.8</number>\right)^{<number>5</number>} \approx <number>189</number></latex>
+	      </para>
+            </workstep>
+            <workstep>
+              <title>In <number>1</number> day = <number>24</number> hours</title>
+	      <para>
+final population = <latex><number>10</number>\left(<number>1.8</number>\right)^{<number>24</number>} \approx <number>13382588</number></latex>
+	      </para>
+            </workstep>
+            <workstep>
+              <title>In <number>1</number> week = <number>168</number> hours</title>
+	      <para>
+final population = <latex><number>10</number>\left(<number>1.8</number>\right)^{<number>168</number>} \approx <number><coeff>7.687</coeff><exp>43</exp></number></latex>
+	      </para>
+              <para>Note this answer is given in scientific notation as it is a very big number.</para>
+            </workstep>
+          </answer>
+        </worked_example>
+        <worked_example>
+          <title>Applications of exponentials</title>
+          <question>
+            <para>A species of extremely rare deep water fish has a very long lifespan and rarely has offspring. If there are a total of <number>821</number> of this type of fish and their growth rate is <percentage>2</percentage> each month, how many will there be in half of a year? What will the population be in ten years and in one hundred years?</para>
+          </question>
+          <answer>
+            <workstep>
+              <title>Exponential formula</title>
+	      <latex display="block">\text{final population} = \text{initial population} \times (1+\text{growth percentage})^{\text{time period in months}}</latex>
+              <para>
+		Therefore, in this case:
+		<latex display="block">\text{final population} = <number>821</number>(<number>1.02</number>)^n</latex>
+		where <latex>n =</latex> number of months.
+	      </para>
+            </workstep>
+            <workstep>
+              <title>In half a year = <number>6</number> months</title>
+	      <para><latex>\text{final population} = <number>821</number>(<number>1.02</number>)^6 \approx <number>925</number></latex></para>
+            </workstep>
+            <workstep>
+              <title>In <number>10</number> years = <number>120</number> months</title>
+	      <para><latex>\text{final population} = <number>821</number>(<number>1.02</number>)^{<number>120</number>} \approx <number>8838</number></latex></para>
+            </workstep>
+            <workstep>
+              <title>In <number>100</number> years = <number>1200</number> months</title>
+	      <para><latex>\text{final population} = <number>821</number>(<number>1.02</number>)^{<number>1200</number>} \approx <number><coeff>1.716</coeff><exp>13</exp></number></latex></para>
+              <para>Note this answer is also given in scientific notation as it is a very big number.</para>
+            </workstep>
+          </answer>
+        </worked_example>
+	<exercises>
+	<title>Applications of exponentials</title>
+   <entry>
+			<shortcode>TODO</shortcode>
+				<problem>
+ 						<!-- template-id 311 -->
+						<para>Nqobani invests <currency precision="0"><number>5530</number></currency> into an account which pays out a lump sum at the end of <number>6</number> years. If he gets <currency precision="2"><number>9622.20</number></currency> at the end of the period, what compound interest rate did the bank offer him? Give answer correct to one decimal place. </para> 
+    		</problem>
+    <solution>
+<latex display="block"> 
+\begin{aligned}
+A  &amp;=  <number>9622.20</number> \\
+P  &amp;=  <number>5530</number> \\
+n  &amp;=  6 
+\end{aligned}</latex>
+
+<latex display="block"> 
+\begin{aligned}
+A &amp;= P(1 + i)^n \\
+<number>9622.20</number> &amp;=  <number>5530</number> (1 + i)^{6}\\
+\frac{<number>9622.20</number>}{<number>5530</number>} &amp;= (1 + i)^{6}   \\
+\sqrt[6]{\frac{<number>9622.20</number>}{<number>5530</number>}} &amp;=  1 + i   \\
+\sqrt[6]{\frac{<number>9622.20</number>}{<number>5530</number>}} - 1 &amp;=    i   \\
+ \therefore i  &amp;=  <number>0.096709</number> \ldots  \\
+   &amp;= <correct><percentage>9.7</percentage></correct> 
+\end{aligned}</latex>
+		</solution>
+	  </entry>
+   <entry>
+			<shortcode>TODO</shortcode>
+				<problem>
+ 						<!-- template-id 309 -->
+<para>The current population of Johannesburg is <number>3885840</number> and the average rate of population growth in South Africa is <percentage>0.7</percentage> p.a. What can city planners expect the population of Johannesburg to be in <number>13</number> years time? </para> 
+    		</problem>
+    <solution>
+<latex display="block"> 
+\begin{aligned}
+P  &amp;=  <number>3885840</number> \\
+i  &amp;=  <number>0.007</number> \\
+n  &amp;=  13
+\end{aligned}</latex>
+
+<latex display="block"> 
+\begin{aligned}
+A &amp;= P(1 + i)^n \\
+ &amp;=  <number>3885840</number> (1 + <number>0.007</number> )^{13} \\
+ &amp;= <correct> <number>4254691</number></correct> 
+\end{aligned}</latex>
+		</solution>
+	  </entry>
+   <entry>
+			<shortcode>TODO</shortcode>
+				<problem>
+ 						<para>Abiona places <number>3</number> books in a stack on her desk.  The next day she counts the books in the stack and then adds the same number of books to the top of the stack. After how many days will she have a stack of <number>192</number> books?</para> 
+    		</problem>
+    <solution>
+<para><latex>3; 6; 12; 24; 48; \ldots </latex> </para> 
+<latex display="block"> 
+\begin{aligned}
+3 \times 2^{n-1}  &amp;=  <number>192</number> \\
+2^{n-1}  &amp;=  64 \\
+		 &amp;=  2^6 \\
+\therefore n - 1  &amp;=  6 \\
+\therefore	n	 &amp;=  <correct>7</correct> \\
+\end{aligned}</latex>
+		</solution>
+	  </entry>
+   <entry>
+			<shortcode>TODO</shortcode>
+				<problem>
+ 						<!-- template-id 402 -->
+<para>A type of mould has a very high exponential growth rate of <percentage>40</percentage> every hour. If there are initially <number>45</number> individual mould cells in the population, determine how many there will be in <number>19</number> hours.</para> 
+    		</problem>
+    <solution>
+<latex display="block"> 
+\begin{aligned}
+\textrm{Population } &amp;= \textrm{Initial population } \times \left( 1 + \textrm{growth percentage }   \right)^{\textrm{time period in hours} } \\
+  &amp;= 45 (1 + <number>0.4</number> )^{19} \\
+ &amp;= <correct> <number>26893</number></correct> 
+\end{aligned}</latex>
+    </solution>
+	  </entry>
+	  </exercises>
+      </section>
+       <section type="section">
+         <title>Summary</title>
+         <shortcode>EM3B4</shortcode>
+
+<presentation><shortcode>todo</shortcode><url>todo</url></presentation>
+
+
+<list list-type="enumerated">
+<item>
+				<para>The number system:</para>
+        <list list-type="bulleted">
+          <item>
+            <para><latex>ℕ</latex>: natural numbers are <latex>\{1; \; 2; \; 3; \; \ldots\}</latex></para>
+          </item>
+          <item>
+            <para><latex>ℕ_0</latex>: whole numbers are <latex>\{0; \; 1; \; 2; \; 3; \; \ldots\}</latex></para>
+          </item>
+          <item>
+            <para><latex>ℤ</latex>: integers are <latex>\{\ldots; \; -3; \; -2; \; -1; \; 0; \; 1; \; 2; \; 3; \; \ldots\}</latex></para>
+          </item>
+          <item>
+            <para><latex>ℚ</latex>: rational numbers are numbers which can be written as <latex>\frac{a}{b}</latex> where <latex>a </latex> and <latex>b </latex> are integers and <latex>b\ne 0</latex>, or as a terminating or recurring decimal number.</para>
+          </item>
+          <item>
+            <para><latex>ℚ'</latex>: irrational numbers are numbers that cannot be written as a fraction with the numerator and denominator as integers. Irrational numbers also include decimal numbers that neither terminate nor recur.</para>
+          </item>
+          <item>
+            <para><latex>ℝ</latex>: real numbers include all rational and irrational numbers.</para>
+          </item>
+          <item>
+            <para><latex>ℝ'</latex>: non-real numbers or imaginary numbers are numbers that are not real.</para>
+          </item>
+					</list>
+</item>
+<item>
+					<para>Definitions:</para>
+       		<list list-type="bulleted">
+					<item>
+  <para><latex>{a}^{n}=a\times a\times a\times \cdots \times a\phantom{\rule{3.33333pt}{0ex}}\phantom{\rule{3.33333pt}{0ex}}\left(n\phantom{\rule{3.33333pt}{0ex}}\text{times}\right)\phantom{\rule{3.33333pt}{0ex}}\phantom{\rule{3.33333pt}{0ex}}\phantom{\rule{3.33333pt}{0ex}}\phantom{\rule{3.33333pt}{0ex}}\left(a\in ℝ,n\in ℕ\right)</latex></para>
+						 </item>
+          <item>
+            <para><latex>{a}^{0}=1\phantom{\rule{28.45274pt}{0ex}}</latex> (<latex>a \ne 0</latex> because <latex>0^0</latex> is undefined)</para>
+          </item>
+          <item>
+            <para><latex>{a}^{-n}=\frac{1}{{a}^{n}}\phantom{\rule{14.22636pt}{0ex}}</latex> (<latex>a \ne 0</latex> because <latex>\dfrac{1}{0}</latex> is undefined)</para>
+          </item>
+					</list>
+</item>
+<item>
+				 <para>Laws of exponents:</para>
+	 			 <para> 
+          <list list-type="bulleted">
+            <item><latex>{a}^{m} \times {a}^{n}={a}^{m+n}</latex></item>
+            <item><latex>\dfrac{{a}^{m}}{{a}^{n}}={a}^{m-n}</latex></item>
+            <item><latex>{\left(ab\right)}^{n}={a}^{n}{b}^{n}</latex></item>
+            <item><latex>{\left(\frac{a}{b}\right)}^{n}=\dfrac{{a}^{n}}{{b}^{n}}</latex></item>
+            <item><latex>{\left({a}^{m}\right)}^{n}={a}^{mn}</latex></item>
+          </list>
+          where <latex>a &gt; 0</latex>, <latex>b &gt; 0</latex> and <latex>m, n \in ℤ</latex>.</para>
+</item>
+
+<item>
+				 <para>Rational exponents and surds:</para>
+	   			<para>
+	     			<list list-type="bulleted">
+				  <item>If <latex>r^n = a</latex>, then <latex>r = \sqrt[n]{a} \quad (n \geq 2)</latex></item>
+				  <item><latex>a^{\frac{1}{n}} = \sqrt[n]{a}</latex></item>
+				  <item><latex>a^{-\frac{1}{n}} = (a^{-1})^{\frac{1}{n}} = \sqrt[n]{\dfrac{1}{a}}</latex></item>
+				  <item><latex>a^{\frac{m}{n}} = (a^{m})^{\frac{1}{n}} = \sqrt[n]{a^m}</latex></item>
+	     			</list>
+	  		 where <latex>a &gt; 0</latex>, <latex>r &gt; 0</latex> and <latex>m,n \in ℤ</latex>, <latex>n \ne 0</latex>.</para>
+</item>
+
+<item>
+				 <para>Simplification of surds:</para>
+	     			<list list-type="bulleted">
+						    <item><latex>\sqrt[n]{a}\sqrt[n]{b} = \sqrt[n]{ab}</latex></item>
+						    <item><latex>\sqrt[n]{\dfrac{a}{b}} = \dfrac{\sqrt[n]{a}}{\sqrt[n]{b}}</latex></item>
+						    <item><latex>\sqrt[m]{\sqrt[n]{a}} = \sqrt[mn]{a}</latex></item>
+	     			</list>
+</item>
+</list>
+</section>
+<!--EOC-->
+      <exercises>
+	<title>End of chapter exercises</title>
+<problem-set>
+  <header>
+ <para>Simplify as far as possible:</para>
+  </header>
+  <entry>
+    <shortcode>todo</shortcode>
+    <problem>
+      <para><latex>{8}^{-\frac{2}{3}}</latex></para>
+    </problem>
+    <solution>
+ <latex display="block"> 
+\begin{aligned}
+8^{-\frac{2}{3}}  &amp;=  \left( 2^3 \right)^{-\frac{2}{3}}  \\
+						&amp;=  2^{-2} \\
+					 &amp;=  <correct>\frac{1}{4}</correct>
+\end{aligned}
+</latex>
+		</solution>
+</entry>
+  <entry>
+     <shortcode>016g</shortcode>
+    <problem>
+       <para><latex>\sqrt{16}+{8}^{-\frac{2}{3}}</latex></para>
+    </problem>
+    <solution>
+ <latex display="block"> 
+\begin{aligned}
+\sqrt{16} + 8^{-\frac{2}{3}}  &amp;= 4 + \left( 2^3 \right)^{-\frac{2}{3}}  \\
+						&amp;=  4 + \frac{1}{4} \\
+					 &amp;=  <correct>4\frac{1}{4}</correct>
+\end{aligned}
+</latex>
+		</solution>
+</entry>
+</problem-set>
+
+<problem-set style:columns="2">
+  <header>
+           <para>Simplify:</para>
+  </header>
+  <entry>
+<shortcode>016h</shortcode>
+    <problem>
+              <para><latex>{\left({x}^{3}\right)}^{\frac{4}{3}}</latex></para>
+    </problem>
+		<solution>
+ <latex display="block"> 
+\left( x^3 \right)^{\frac{4}{3}} = <correct>x^4</correct>
+</latex>
+		</solution>
+</entry>
+  <entry>
+    <shortcode>todo</shortcode>
+    <problem>
+              <para><latex>{\left({s}^{2}\right)}^{\frac{1}{2}}</latex></para>
+    </problem>
+		<solution>
+ <latex display="block"> 
+\left( s^2 \right)^{\frac{1}{2}} = <correct>s</correct>
+</latex>
+		</solution>
+</entry>
+  <entry>
+    <shortcode>todo</shortcode>
+    <problem>
+             <para><latex>{\left({m}^{5}\right)}^{\frac{5}{3}}</latex></para>
+    </problem>
+		<solution>
+ <latex display="block"> 
+\left( m^5 \right)^{\frac{5}{3}} = <correct>m^{\frac{25}{3}}</correct>
+</latex>
+		</solution>
+</entry>
+  <entry>
+    <shortcode>todo</shortcode>
+    <problem>
+       <para><latex>{\left(-{m}^{2}\right)}^{\frac{4}{3}}</latex></para>
+    </problem>
+		<solution>
+ <latex display="block"> 
+ \left(- m^2 \right)^{\frac{4}{3}} = <correct>m^{\frac{8}{3}}</correct>
+</latex>
+		</solution>
+</entry>
+  <entry>
+    <shortcode>todo</shortcode>
+    <problem>
+      <para><latex>-{\left({m}^{2}\right)}^{\frac{4}{3}}</latex></para>
+    </problem>
+		<solution>
+ <latex display="block"> 
+ -\left( m^2 \right)^{\frac{4}{3}} = <correct>-m^{\frac{8}{3}}</correct>
+</latex>
+		</solution>
+</entry>
+  <entry>
+    <shortcode>todo</shortcode>
+    <problem>
+       <para><latex>{\left(3{y}^{\frac{4}{3}}\right)}^{4}</latex></para>
+    </problem>
+		<solution>
+ <latex display="block"> 
+ \left( 3y^{\frac{4}{3}} \right)^4 = <correct>81y^{\frac{16}{3}}</correct>
+</latex>
+		</solution>
+</entry>
+</problem-set>
+
+<problem-set style:columns="2">
+  <header>
+<para>Simplify the following:</para>
+  </header>
+  <entry>
+    <shortcode>016i</shortcode>
+    <problem>
+             <latex>\dfrac{3{a}^{-2}{b}^{15}{c}^{-5}}{{\left({a}^{-4}{b}^{3}c\right)}^{\frac{-5}{2}}}</latex>
+    </problem>
+    <solution>
+ <latex display="block"> 
+\begin{aligned}
+\dfrac{3a^{-2}b^{15}c^{-5}}{(a^{-4}b^3c)^{-\frac{5}{2}}}  &amp;= \dfrac{3a^{-2}b^{15}c^{-5}}{(a^{10}b^{-\frac{15}{2}}c^{-\frac{5}{2}}}  \\
+						&amp;=  \dfrac{3b^{15+\frac{15}{2}}}{(a^{12}c^{5-\frac{5}{2}}}  \\
+					 &amp;=  <correct>\dfrac{3b^{\frac{45}{2}}}{(a^{12}c^{\frac{5}{2}}} </correct>
+\end{aligned}
+</latex>
+		</solution>
+</entry>
+<entry>
+<shortcode>016j</shortcode>
+<problem>
+          <latex>{\left(9{a}^{6}{b}^{4}\right)}^{\frac{1}{2}}</latex>
+        </problem>
+		<solution>
+ <latex display="block"> 
+ \left( 9a^6b^4 \right)^{\frac{1}{2}} = <correct>3a^3b^2</correct>
+</latex>
+		</solution>
+</entry>
+<entry>
+<shortcode>016k</shortcode>
+<problem>
+          <latex>{\left({a}^{\frac{3}{2}}{b}^{\frac{3}{4}}\right)}^{16}</latex>
+        </problem>
+		<solution>
+ <latex display="block"> 
+ \left( a^{\frac{3}{2}}b^{\frac{3}{4}} \right)^{16} = <correct>a^{24}b^{12}</correct>
+</latex>
+		</solution>
+</entry>
+<entry>
+<shortcode>016m</shortcode>
+<problem>
+          <latex>{x}^{3}\sqrt{x}</latex>
+        </problem>
+		<solution>
+ <latex display="block"> 
+\begin{aligned}
+ x^3 \sqrt{x} &amp;= x^3 \times x^{\frac{1}{2}} \\
+						&amp;= x^{\frac{6}{2}} \times x^{\frac{1}{2}} \\
+						&amp;=  <correct>x^{\frac{7}{2}}</correct>
+\end{aligned}
+</latex>
+		</solution>
+</entry>
+<entry>
+<shortcode>016n</shortcode>
+<problem>
+          <latex>\sqrt[3]{{x}^{4}{b}^{5}}</latex>
+        </problem>
+		<solution>
+ <latex display="block"> 
+\begin{aligned}
+ \sqrt[3]{x^4b^5} &amp;= \left( x^4b^5 \right)^{\frac{1}{3}} \\
+						&amp;=  <correct>x^{\frac{4}{3}}b^{\frac{5}{3}}</correct>
+\end{aligned}
+</latex>
+		</solution>
+</entry>
+</problem-set>
+<entry>
+<shortcode>016p</shortcode>
+<problem>
+          <para>Re-write the following expression as a power of <latex>x</latex>:</para>
+          <para><latex>\dfrac{x\sqrt{x\sqrt{x\sqrt{x\sqrt{x}}}}}{x^2} </latex></para>
+        </problem>
+		<solution>
+ <latex display="block"> 
+\begin{aligned}
+\dfrac{x\sqrt{x\sqrt{x\sqrt{x\sqrt{x}}}}}{x^2} &amp;= \dfrac{x \times x^{\frac{1}{2}} \times x^{\frac{1}{4}} \times x^{\frac{1}{8}} \times x^{\frac{1}{16}} }{x^2} \\
+&amp;= \dfrac{x^{\frac{31}{16}} }{x^{\frac{32}{16}}} \\
+						&amp;=  <correct>\dfrac{1}{x^{\frac{1}{16}}}</correct>
+\end{aligned}
+</latex>
+		</solution>
+</entry>
+<entry>
+<shortcode>016q</shortcode>
+<problem>
+          <para>Expand:</para>
+          <latex>\left(\sqrt{x}-\sqrt{2}\right)\left(\sqrt{x}+\sqrt{2}\right)</latex>
+        </problem>
+		<solution>
+ <latex display="block"> 
+\begin{aligned}
+\left( \sqrt{x} - \sqrt{2} \right) \left( \sqrt{x} + \sqrt{2} \right) &amp;= \left( \sqrt{x} \right)^2 -  \left( \sqrt{2} \right)^2 \\
+  						&amp;=  <correct>x - 2</correct>
+\end{aligned}
+</latex>
+		</solution>
+</entry>
+<entry>
+<shortcode>016r</shortcode>
+<problem>
+          <para>Rationalise the denominator:</para>
+          <latex>\dfrac{10}{\sqrt{x}-\frac{1}{x}}</latex>
+        </problem>
+		<solution>
+ <latex display="block"> 
+\begin{aligned}
+\dfrac{10}{\sqrt{x} - 1} &amp;= \dfrac{10}{\sqrt{x} - 1} \times \dfrac{\sqrt{x} + 1}{\sqrt{x} + 1} \\
+ &amp;=   \dfrac{10 \left( \sqrt{x} + 1 \right) }{\left( \sqrt{x} \right)^2  -  1} \\
+ &amp;=   <correct>\dfrac{10 \sqrt{x} + 10}{x-1}</correct>
+\end{aligned}
+</latex>
+		</solution>
+</entry>
+<entry>
+<shortcode>016s</shortcode>
+<problem>
+          <para>Write as a single term with a rational denominator:</para>
+          <latex>\dfrac{3}{2\sqrt{x}}+\sqrt{x}</latex>
+        </problem>
+		<solution>
+ <latex display="block"> 
+\begin{aligned}
+\dfrac{3}{2\sqrt{x}} + \sqrt{x} &amp;= \dfrac{3 + 2\sqrt{x}\sqrt{x}}{2\sqrt{x}}  \\
+ &amp;=   \dfrac{3 + 2x}{2\sqrt{x}} \times \frac{\sqrt{x} }{\sqrt{x} }  \\
+ &amp;=   <correct>\dfrac{3\sqrt{x} + 2x\sqrt{x} }{2x} </correct>
+\end{aligned}
+</latex>
+		</solution>
+</entry>
+
+<problem-set style:columns="2">
+  <header>
+   <para>Write in simplest surd form:</para>
+  </header>
+  <entry>
+  <shortcode>016t</shortcode>
+    <problem>
+        <para><latex>\sqrt{72}</latex></para>
+    </problem>
+		<solution>
+ <latex display="block"> 
+\begin{aligned}
+ \sqrt{72} &amp;= \sqrt{8 \times 9} \\
+				&amp;= \sqrt{8} \times \sqrt{9} \\
+				&amp;= 2\sqrt{2} \times 3 \\
+						&amp;=  <correct>6\sqrt{2}</correct>
+\end{aligned}
+</latex>
+		</solution>
+</entry>
+  <entry>
+    <shortcode>todo</shortcode>
+    <problem>
+            <para><latex>\sqrt{45}+\sqrt{80}</latex></para>
+    </problem>
+		<solution>
+ <latex display="block"> 
+\begin{aligned}
+ \sqrt{45} + \sqrt{80} &amp;=  \sqrt{5 \times 9} + \sqrt{5 \times 16} \\
+				&amp;= 3\sqrt{5} + 4\sqrt{5} \\
+						&amp;=  <correct>7\sqrt{5}</correct>
+\end{aligned}
+</latex>
+		</solution>
+</entry>
+  <entry>
+    <shortcode>todo</shortcode>
+    <problem>
+       <para><latex>\dfrac{\sqrt{48}}{\sqrt{12}}</latex></para>
+    </problem>
+ 		<solution>
+ <latex display="block"> 
+\begin{aligned}
+ \dfrac{\sqrt{48}}{\sqrt{12}} &amp;=  \sqrt{\dfrac{48}{12}} \\
+				&amp;=  \sqrt{4}  \\
+				&amp;=  2  \\
+\textrm{ or }
+ \dfrac{\sqrt{48}}{\sqrt{12}} &amp;=  \dfrac{\sqrt{3 \times 16}}{\sqrt{3 \times 4}} \\
+				&amp;=  \dfrac{4\sqrt{3}}{2\sqrt{3}}  \\
+				&amp;=  \frac{4}{2}  \\
+						&amp;=  <correct>2</correct>
+\end{aligned}
+</latex>
+		</solution>
+</entry>
+  <entry>
+    <shortcode>todo</shortcode>
+    <problem>
+       <para><latex>\dfrac{\sqrt{18}÷\sqrt{72}}{\sqrt{8}}</latex></para>
+    </problem>
+ 		<solution>
+ <latex display="block"> 
+\begin{aligned}
+ \dfrac{\sqrt{18} \div \sqrt{72}}{\sqrt{8}} &amp;=   \dfrac{\sqrt{\frac{18}{72}}}{\sqrt{8}} \\
+				&amp;=   \dfrac{\sqrt{\frac{1}{4}}}{2\sqrt{2}} \\
+				&amp;=  \dfrac{\frac{1}{2}}{2\sqrt{2}}  \\
+				&amp;=   \dfrac{1}{2} \times \frac{1}{2\sqrt{2}}  \\
+						&amp;=  <correct>\dfrac{1}{4\sqrt{2}} </correct>
+\end{aligned}
+</latex>
+		</solution>
+</entry>
+  <entry>
+    <shortcode>todo</shortcode>
+    <problem>
+       <para><latex>\dfrac{4}{\left(\sqrt{8}÷\sqrt{2}\right)}</latex></para>
+    </problem>
+ 		<solution>
+ <latex display="block"> 
+\begin{aligned}
+ \dfrac{4}{\sqrt{8} \div \sqrt{2}} &amp;=  \dfrac{4}{2\sqrt{2} \div \sqrt{2}}  \\
+				&amp;= \dfrac{4}{2}  \\
+						&amp;=  <correct>2</correct>
+\end{aligned}
+</latex>
+		</solution>
+</entry>
+  <entry>
+    <shortcode>todo</shortcode>
+    <problem>
+      <para><latex>\dfrac{16}{\left(\sqrt{20}÷\sqrt{12}\right)}</latex></para>
+    </problem>
+ 		<solution>
+ <latex display="block"> 
+\begin{aligned}
+ \dfrac{16}{\sqrt{20} \div \sqrt{12}} &amp;=   \dfrac{16}{2\sqrt{5} \div 2\sqrt{3}} \\
+				&amp;=    \dfrac{16}{\frac{2\sqrt{5}}{2\sqrt{3}}} \\
+				&amp;=  16 \times \dfrac{\sqrt{3}}{\sqrt{5}} \\
+				&amp;=   16 \times \dfrac{\sqrt{3}}{\sqrt{5}} \times  \dfrac{\sqrt{5}}{\sqrt{5}}  \\
+						&amp;=  <correct>\dfrac{16\sqrt{15}}{5} </correct>
+\end{aligned}
+</latex>
+		</solution>
+</entry>
+</problem-set>
+
+<problem-set>
+  <header>
+  <para>Expand and simplify:</para>
+  </header>
+<entry>
+<shortcode>016u</shortcode>
+<problem>
+         
+          <latex>{\left(2+\sqrt{2}\right)}^{2}</latex>
+        </problem>
+ 		<solution>
+ <latex display="block"> 
+\begin{aligned}
+ \left( 2 + \sqrt{2} \right)^2 &amp;=   \left( 2 + \sqrt{2} \right) \left( 2 + \sqrt{2} \right) \\
+				&amp;=    4 + 4\sqrt{2} + \left( \sqrt{2} \right)^2  \\
+				&amp;=    4 + 4\sqrt{2} + 2  \\
+ 				&amp;=  <correct>6 + 4\sqrt{2}</correct>
+\end{aligned}
+</latex>
+		</solution>
+</entry>
+<entry>
+<shortcode>016v</shortcode>
+<problem>
+          <latex>\left(2+\sqrt{2}\right)\left(1+\sqrt{8}\right)</latex>
+        </problem>
+ 		<solution>
+ <latex display="block"> 
+\begin{aligned}
+ \left( 2 + \sqrt{2} \right) \left( 1 + \sqrt{8} \right) &amp;=   \left( 2 + \sqrt{2} \right) \left( 1 + 2\sqrt{2} \right) \\
+				&amp;=    2 + 4\sqrt{2} + \sqrt{2} + 2\left( \sqrt{2} \right)^2  \\
+				&amp;=    2 + 5\sqrt{2} + 2(2)  \\
+ 				&amp;=  <correct>6 + 5\sqrt{2}</correct>
+\end{aligned}
+</latex>
+		</solution>
+</entry>
+<entry>
+<shortcode>016w</shortcode>
+<problem>
+          <latex>\left(1+\sqrt{3}\right)\left(1+\sqrt{8}+\sqrt{3}\right)</latex>
+        </problem>
+ 		<solution>
+ <latex display="block"> 
+\begin{aligned}
+ \left( 1 + \sqrt{3} \right) \left( 1 + \sqrt{8} + \sqrt{3} \right) &amp;=   1 + \sqrt{8} + \sqrt{3} + \sqrt{3} + \sqrt{8 \times 3} + \left( \sqrt{3} \right)^2\\
+				&amp;=    1 + 2\sqrt{2} + 2\sqrt{3} + 2\sqrt{6} + 3 \\
+				&amp;=    <correct>4 + 2\sqrt{2} +  2\sqrt{3}  + 2\sqrt{6}</correct>
+\end{aligned}
+</latex>
+		</solution>
+</entry>
+</problem-set>
+
+<problem-set>
+  <header>
+          <para>Simplify, without use of a calculator:</para>
+  </header>
+<entry>
+<shortcode>016x</shortcode>
+<problem>
+
+          <latex>\sqrt{5}\left(\sqrt{45}+2\sqrt{80}\right)</latex>
+        </problem>
+ 		<solution>
+ <latex display="block"> 
+\begin{aligned}
+ \sqrt{5} \left( \sqrt{45} + 2\sqrt{80} \right)  &amp;= \sqrt{5} \left( \sqrt{9 \times 5} + 2\sqrt{16 \times 5} \right) \\
+				&amp;=   \sqrt{5} \left( 3\sqrt{5} + 8\sqrt{5} \right)  \\
+				&amp;=  3 \times 5 + 8 \times 5 \\
+				&amp;=  15 + 40 \\
+				&amp;=    <correct> 55 </correct>
+\end{aligned}
+</latex>
+		</solution>
+</entry>
+<entry>
+<shortcode>0170</shortcode>
+<problem>
+          <latex>\dfrac{\sqrt{98}-\sqrt{8}}{\sqrt{50}}</latex>
+        </problem>
+ 		<solution>
+ <latex display="block"> 
+\begin{aligned}
+ \dfrac{\sqrt{98}  -  \sqrt{8}}{\sqrt{50}} &amp;= \dfrac{\sqrt{49 \times 2}  -  \sqrt{4 \times 2}}{\sqrt{25 \times 2}} \\
+				&amp;=   \dfrac{7\sqrt{2}  -  2\sqrt{2}}{5\sqrt{2}}  \\
+				&amp;=   \dfrac{5\sqrt{2}}{5\sqrt{2}}  \\
+				&amp;=    <correct> 1</correct>
+\end{aligned}
+</latex>
+		</solution>
+</entry>
+</problem-set>
+
+
+
+<entry>
+<shortcode>016y</shortcode>
+<problem>
+          <para>Simplify:</para>
+          <latex>\sqrt{98{x}^{6}}+\sqrt{128{x}^{6}}</latex>
+        </problem>
+ 		<solution>
+ <latex display="block"> 
+\begin{aligned}
+ \sqrt{98x^6}  +  \sqrt{128x^6} &amp;= \sqrt{2 \times 49 x^6}  +  \sqrt{2 \times 64x^6} \\
+				&amp;=   7x^3 \sqrt{2} + 8x^3 \sqrt{2}  \\
+				&amp;=    <correct> 15 \sqrt{2}x^3</correct>
+\end{aligned}
+</latex>
+		</solution>
+</entry>
+
+<problem-set>
+  <header>
+          <para>Rationalise the denominator:</para>
+  </header>
+<entry>
+<shortcode>016z</shortcode>
+<problem>
+          <latex>\dfrac{\sqrt{5}+2}{\sqrt{5}}</latex>
+        </problem>
+ 		<solution>
+ <latex display="block"> 
+\begin{aligned}
+ \dfrac{\sqrt{5} + 2 }{\sqrt{5}} &amp;= \dfrac{\sqrt{5} + 2 }{\sqrt{5}} \times \dfrac{\sqrt{5}}{\sqrt{5}} \\
+				&amp;=   \dfrac{ 5 + 2\sqrt{5} }{5} \\
+				&amp;=    <correct>1 + \dfrac{2\sqrt{5}}{5}</correct>
+\end{aligned}
+</latex>
+		</solution>
+</entry>
+
+<entry>
+<shortcode>0171</shortcode>
+<problem>
+          <latex>\dfrac{y-4}{\sqrt{y}-2}</latex>
+        </problem>
+ 		<solution>
+ <latex display="block"> 
+\begin{aligned}
+ \dfrac{\sqrt{y} - 4 }{\sqrt{y} - 2 } &amp;= \dfrac{y - 4 }{\sqrt{y} - 2 } \times \dfrac{\sqrt{y} + 2}{\sqrt{y} + 2} \\
+				&amp;=   \dfrac{y\sqrt{y} +2y - 4\sqrt{y} - 8}{y - 4} \\
+				&amp;=    <correct>\dfrac{2y + y\sqrt{y} - 4\sqrt{y} - 8}{y - 4}</correct>
+\end{aligned}
+</latex>
+		</solution>
+</entry>
+<entry>
+<shortcode>0172</shortcode>
+<problem>
+          <latex>\dfrac{2x-20}{\sqrt{x}-\sqrt{10}}</latex>
+        </problem>
+ 		<solution>
+ <latex display="block"> 
+\begin{aligned}
+ \dfrac{2x - 20 }{\sqrt{x} - \sqrt{10} } &amp;= \dfrac{2x - 20 }{\sqrt{x} - \sqrt{10} } \times \dfrac{\sqrt{x} + \sqrt{10}}{\sqrt{x} + \sqrt{10}} \\
+				&amp;=  \dfrac{2(x - 10) \left( \sqrt{x} + \sqrt{10} \right) }{x - 10 } \\
+				&amp;=    <correct>2\sqrt{x} + 2\sqrt{10}</correct>
+\end{aligned}
+</latex>
+		</solution>
+</entry>
+</problem-set>
+
+<entry>
+<shortcode>0173</shortcode>
+<problem>
+          <para>Evaluate without using a calculator: <latex>{\left(2-\dfrac{\sqrt{7}}{2}\right)}^{\frac{1}{2}}\phantom{\rule{0.222222em}{0ex}}\times \phantom{\rule{0.222222em}{0ex}}{\left(2+\dfrac{\sqrt{7}}{2}\right)}^{\frac{1}{2}}</latex></para>
+        </problem>
+ 		<solution>
+ <latex display="block"> 
+\begin{aligned}
+ \left( 2 - \dfrac{\sqrt{7}}{2} \right)^{\frac{1}{2}} \left( 2 + \dfrac{\sqrt{7}}{2} \right)^{\frac{1}{2}}  &amp;= \left( 4 - \frac{7}{4} \right)^{\frac{1}{2}}  \\
+				&amp;=  \sqrt{\frac{16}{4} - \frac{7}{4}}\\
+				&amp;=  \sqrt{\frac{9}{4}}\\
+				&amp;=    <correct>\frac{3}{2}</correct>
+\end{aligned}
+</latex>
+		</solution>
+</entry>
+<entry>
+<shortcode>0174</shortcode>
+<problem>
+          <para>Prove (without the use of a calculator):</para>
+          <latex>\sqrt{\dfrac{8}{3}}+5\sqrt{\dfrac{5}{3}}-\sqrt{\dfrac{1}{6}}=\dfrac{10\sqrt{15}+3\sqrt{6}}{6}</latex>
+        </problem>
+ 		<solution>
+ <latex display="block"> 
+\begin{aligned}
+ \textrm{LHS }  &amp;= \sqrt{\dfrac{8}{3}} + 5 \sqrt{\dfrac{5}{3}} - \sqrt{\dfrac{1}{6}}  \\
+				&amp;=  \sqrt{\frac{8}{3}} \times \dfrac{\sqrt{3}}{\sqrt{3}} + 5 \sqrt{\dfrac{5}{3}} \times \dfrac{\sqrt{3}}{\sqrt{3}} - \sqrt{\dfrac{1}{6}} \times \dfrac{\sqrt{6}}{\sqrt{6}} \\
+				&amp;=   \dfrac{\sqrt{8}\sqrt{3}}{3}  + 5\frac{\sqrt{5}\sqrt{3}}{3} -  \frac{\sqrt{6}}{6} \\
+				&amp;=   \dfrac{ 2\sqrt{24}}{6}  + \frac{10\sqrt{15}}{6} -  \frac{\sqrt{6}}{6} \\
+				&amp;=   \dfrac{ 4\sqrt{6}  + 10\sqrt{15} - \sqrt{6}}{6} \\
+				&amp;=  \dfrac{ 10\sqrt{15} + 3\sqrt{6}}{6} \\
+				&amp;= \textrm{RHS }
+\end{aligned}
+</latex>
+		</solution>
+  <correct/>
+</entry>
+<entry>
+<shortcode>0175</shortcode>
+<problem>
+          <para>Simplify completely by showing all your steps (do not use a calculator): <latex display="block"> {3}^{-\frac{1}{2}}\left[\sqrt{12}+\sqrt[3]{\left(3\sqrt{3}\right)}\right]</latex></para>
+        </problem>
+		<solution>
+ <latex display="block"> 
+\begin{aligned}
+ 3^{-\frac{1}{2}} \left( \sqrt{12} + \sqrt[3]{3\sqrt{3}} \right)  &amp;= \frac{1}{\sqrt{3}} \left( 2\sqrt{3} + \sqrt[3]{3\times3^{\frac{1}{2}}} \right) \\
+				&amp;=   \frac{1}{\sqrt{3}} \left( 2\sqrt{3} +  \left( 3^{\frac{3}{2}} \right)^{\frac{1}{3}} \right) \\
+				&amp;=   \frac{1}{\sqrt{3}} \left( 2\sqrt{3} +  3^{\frac{1}{2}} \right) \\
+				&amp;=   \frac{1}{\sqrt{3}} \left( 3\sqrt{3} \right) \\
+				&amp;=    <correct>3</correct>
+\end{aligned}
+</latex>
+		</solution>
+</entry>
+<entry>
+<shortcode>0176</shortcode>
+<problem>
+          <para>Fill in the blank surd-form number on the right hand side of the equal sign which will make the following a true statement: <latex>-3\sqrt{6}\times -2\sqrt{24}=-\sqrt{18}\times ...</latex></para>
+        </problem>
+ 		<solution>
+ <latex display="block"> 
+\begin{aligned}
+ \textrm{LHS }  &amp;= -3\sqrt{6} \times -2\sqrt{24} \\
+				&amp;=  6\sqrt{6}\sqrt{4 \times 6} \\
+				&amp;=  12\sqrt{6}\sqrt{6} \\
+				&amp;=  12(6) \\
+				&amp;=  72 \\
+	\textrm{So then if LHS }	&amp;= \textrm{RHS } \\
+	\textrm{RHS }	&amp;= 72 \\
+				&amp;= \sqrt{<number>5184</number>} \\
+				&amp;= -\sqrt{18} \times <correct>-\sqrt{<number>288</number>}</correct>\\
+\end{aligned}
+</latex>
+		</solution>
+</entry>
+
+<problem-set>
+  <header>
+    <para>Solve for the unknown variable:<latex> </latex></para>
+  </header>
+<entry>
+	<shortcode>todo</shortcode>
+		<problem>
+    <para> <latex>3^{x - 1} - 27 = 0 </latex></para>
+      </problem>
+		<solution>
+ <latex display="block"> 
+\begin{aligned}
+ 	3^{x - 1} - 27  &amp;= 0\\
+		3^{x - 1} 		&amp;= 27\\
+		3^{x - 1} 		&amp;= 3^3\\
+					x - 1 	&amp;=   3 \\
+		\therefore x	&amp;=    <correct>4</correct>
+\end{aligned}
+</latex>
+		</solution>
+</entry>
+<entry>
+	<shortcode>todo</shortcode>
+		<problem>
+    <para><latex>8^x - \frac{1}{\sqrt[3]{8}} = 0 </latex></para>
+      </problem>
+		<solution>
+ <latex display="block"> 
+\begin{aligned}
+ 	8^x - \frac{1}{\sqrt[3]{8}}  &amp;= 0\\
+ 	2^{3x}   &amp;= \frac{1}{\sqrt[3]{2^3}}  \\
+ 	2^{3x}   &amp;= \frac{1}{2}  \\
+ 	2^{3x}   &amp;=2^{-1}  \\
+		\therefore x	&amp;=  -\frac{1}{3} \\
+\textrm{ or } &amp; \\
+ 	8^x - \frac{1}{\sqrt[3]{8}}  &amp;= 0\\
+ 	8^x  &amp;=  \frac{1}{\sqrt[3]{8}}  \\
+		8^x 		&amp;= 8^{-\frac{1}{3}}\\
+		\therefore x	&amp;=    <correct>-\frac{1}{3}</correct>
+\end{aligned}
+</latex>
+		</solution>
+</entry>
+<entry>
+	<shortcode>todo</shortcode>
+		<problem>
+    <para><latex>27(4^x) = (64)3^x </latex></para>
+      </problem>
+		<solution>
+ <latex display="block"> 
+\begin{aligned}
+ 27(4^x) &amp;= (64)3^x  \\
+ \frac{27}{64}  &amp;=  \frac{3^x}{4^x}  \\
+		\frac{3^3}{4^3} 		&amp;= \left( \frac{3}{4} \right)^x \\
+		\left( \frac{3}{4} \right)^3		&amp;= \left( \frac{3}{4} \right)^x \\
+		\therefore x	&amp;=    <correct>3</correct>
+\end{aligned}
+</latex>
+		</solution>
+</entry>
+<entry>
+	<shortcode>todo</shortcode>
+		<problem>
+    <para><latex>\sqrt{2x - 5} = 2 - x</latex></para>
+      </problem>
+		<solution>
+ <latex display="block"> 
+\begin{aligned}
+ \sqrt{2x - 5} &amp;=  2 - x \\
+ \left( \sqrt{2x - 5} \right)^2 &amp;= \left( 2 - x \right)^2\\
+		2x - 5		&amp;= 4 - 4x + x^2 \\
+		0	&amp;= x^2 - 6x + 9 \\
+		0	&amp;= (x - 3)(x - 3) \\
+		\therefore x	&amp;=  3 \\ 
+		\textrm{Check solution: LHS } &amp;=  \sqrt{2(3) - 5} \\ 
+ &amp;=  \sqrt{6 - 5} \\ 
+ &amp;=  \sqrt{1} \\ 
+ &amp;= 1 \\ 
+		\textrm{Check solution: RHS } &amp;=  2-3 \\ 
+ &amp;= -1 \\ 
+		\textrm{RHS } &amp;\ne \textrm{LHS }\\ 
+	\therefore &amp;<correct>\textrm{No solution}</correct>
+\end{aligned}
+</latex>
+		</solution>
+</entry>
+<entry>
+	<shortcode>todo</shortcode>
+		<problem>
+    <para><latex>2x^{\frac{2}{3}} + 3x^{\frac{1}{3}} - 2 = 0 </latex></para>
+      </problem>
+		<solution>
+ <latex display="block"> 
+\begin{aligned}
+	2x^{\frac{2}{3}} + 3x^{\frac{1}{3}} - 2 &amp;= 0 \\
+	\left( 2x^{\frac{1}{3}} - 1  \right) \left( x^{\frac{1}{3}}  + 2  \right) &amp;= 0 \\
+		\therefore 2x^{\frac{1}{3}} - 1 &amp;= 0 \\
+		2x^{\frac{1}{3}}	&amp;= 1 \\
+		x^{\frac{1}{3}}	&amp;= \frac{1}{2} \\
+		\left( x^{\frac{1}{3}} \right)^3	&amp;= \left( \frac{1}{2} \right)^3 \\
+		\therefore x	&amp;= \frac{1}{8}  \\
+		\textrm{ or } &amp;  \\ 
+ 	 x^{\frac{1}{3}}  + 2  &amp;=  0 \\ 
+ 	 x^{\frac{1}{3}}   &amp;=  -2 \\ 
+ 	\left( x^{\frac{1}{3}} \right)^3  &amp;= \left( -2 \right)^3 \\ 
+ 	 x  &amp;= -8 \\ 
+ \textrm{Therefore } x = \frac{1}{8} &amp;\textrm{ or } x = -8 \\ 
+\end{aligned}
+</latex>
+		</solution>
+<correct><latex>x = \frac{1}{8} \textrm{ or } x = -8</latex></correct>
+</entry>
+</problem-set>
+
+<problem-set>
+  <entry>
+    <shortcode>todo</shortcode>
+    <problem>
+      <para>Show that <latex> \sqrt{\dfrac{3^{x+1} - 3^x}{3^{x-1}} + 3}</latex> is equal to <number>3</number></para>
+    </problem>
+ 		<solution>
+ <latex display="block"> 
+\begin{aligned}
+ \textrm{LHS }  &amp;= \sqrt{\dfrac{3^{x+1} - 3^x}{3^{x-1}} + 3} \\
+				&amp;=  \sqrt{\dfrac{3^{x+1}}{3^{x-1}} - \dfrac{3^{x}}{3^{x-1}}+ 3} \\
+				&amp;=  \sqrt{3^{x+1-x+1} -  3^{x-x+1} + 3} \\
+				&amp;=  \sqrt{3^{2} -  3^{1} + 3} \\
+				&amp;=  \sqrt{3^{2}} \\
+				&amp;=  3 \\
+				&amp;=   \textrm{RHS }
+\end{aligned}
+</latex>
+		</solution>
+		<correct/>
+</entry>
+  <entry>
+    <shortcode>todo</shortcode>
+    <problem>
+      <para>Hence solve <latex> \sqrt{\dfrac{3^{x+1} - 3^x}{3^{x-1}} + 3} = \left( \dfrac{1}{3} \right)^{x-2}</latex></para>
+    </problem>
+ 		<solution>
+ <latex display="block"> 
+\begin{aligned}
+ \sqrt{\dfrac{3^{x+1} - 3^x}{3^{x-1}} + 3} &amp;=  \left( \dfrac{1}{3} \right)^{x-2} \\
+ 3  &amp;=  \left( \frac{1}{3} \right)^{x-2} \\
+ 3  &amp;=  \left( 3\right)^{-x+2} \\
+		1		&amp;=  -x + 2\\
+		x		&amp;=  1
+\end{aligned}
+</latex>
+		</solution>
+<correct><latex>x = 1</latex></correct>
+</entry>
+</problem-set>
+</exercises>
+    </section>
+  </content>
+</document>
