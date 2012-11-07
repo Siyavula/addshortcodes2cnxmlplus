@@ -9,12 +9,6 @@ import lxml.etree as etree
 
 import dencoder
 
-#   /document/content//presentation
-#   /document/content//simulation
-#   /document/content//video
-#   /document/content//exercises//problem-set/entry
-#   /document/content//exercises//multi-part
-
 def addShortcodeTag(element, shortcode):
     '''checks if element has shortcode tag as a child, replaces the contents
     with the given shortcode or creates a new shortcode element and returns the
@@ -66,7 +60,8 @@ ExStart: starting shortcode for problems''' %args[0]
                 newshortcode = SectionPrefix + Dencoder.encode(SectionStart)
                 element = addShortcodeTag(element, newshortcode) 
                 SectionStart += 1
-
+        
+        # Rich media shortcodes
         if element.tag in ['presentation', 'simulation', 'video']:
             # maybe create better shortcode for simulations, presentations and
             # videos
@@ -74,9 +69,21 @@ ExStart: starting shortcode for problems''' %args[0]
             element = addShortcodeTag(element, newshortcode)
             ExStart += 1
 
+        
+        # shortcodes for /document/content//exercises//problem-set/entry
+        if element.tag == 'entry':
+            # check if the parents contain exercises and problem-set
+            if ('exercises' in path) and ('problem-set' in path):
+                newshortcode = Dencoder.encode(ExStart)
+                element = addShortcodeTag(element, newshortcode)
+                ExStart += 1
 
-
-
-
+        # shortcodes for /document/content//exercises//multi-part
+        if element.tag == 'multi-part':
+            # check if the parents contain exercises 
+            if ('exercises' in path):
+                newshortcode = Dencoder.encode(ExStart)
+                element = addShortcodeTag(element, newshortcode)
+                ExStart += 1
 
     print etree.tostring(root, encoding='utf-8')
